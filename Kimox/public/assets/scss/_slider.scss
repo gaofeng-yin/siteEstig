@@ -1,0 +1,173 @@
+@use "common" as *;
+@use "variables" as *;
+@use "mixins" as *;
+
+/* 03. Slider */ 
+.slider-height {
+    min-height: 970px;
+    @include mq(xs){
+        min-height: 600px;
+    }
+}
+.slider-height-2 {
+    min-height: 915px;
+}
+.single-slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slide-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	z-index: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	transform: scale(1);
+    @include transition(8s);
+}
+.swiper-slide-active  .slide-bg{
+	-webkit-transform: scale(1.12);
+	-moz-transform: scale(1.12);
+	transform: scale(1.12);
+}
+.kslider {
+    padding-top: 345px;
+    @include mq(xs){
+        padding-top: 200px;
+        .theme-btn {
+            height: 54px;
+            line-height: 54px;
+            padding: 0px 35px;
+        }
+    }
+}
+.kslider--subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: $white-color;
+    position: relative;
+    padding-left: 32px;
+    text-transform: uppercase;
+    &:before {
+        position: absolute;
+        content: '';
+        width: 24px;
+        height: 6px;
+        background-color: rgb(255, 64, 64);
+        top: 5px;
+        left: 0px;
+    }
+}
+.kslider--title {
+    font-size: 130px;
+    font-weight: 900;
+    color: $white-color;
+    line-height: 0.85;
+    text-transform: uppercase;
+    letter-spacing: -2.5px;
+    @include mq(xl){
+        font-size: 120px;
+    }
+    @include mq(lg){
+        font-size: 100px;
+    }
+    @include mq(md){
+        font-size: 90px;
+    }
+    @include mq(xs){
+        font-size: 48px;
+        line-height: 1;
+    }
+    @include mq(sm){
+        font-size: 60px;
+    }
+}
+
+.slide-shape {
+    position: absolute;
+    left: -100%;
+    bottom: -100%;
+    z-index: 3;
+    transition: 1.5s;
+    &.shape-2 {
+        left: auto;
+        right: -100%;
+    }
+}
+.swiper-slide-active .slide-shape {
+	left: 0;
+    bottom: 0;
+    @include mq(xs){
+        width: 150px;
+    }
+    @include mq(sm){
+        width: 250px;
+    }
+    @include mq(md){
+        width: 300px;
+    }
+    @include mq(lg){
+        width: 400px;
+    }
+    @include mq(xl){
+        width: 500px;
+    }
+    &.shape-2 {
+        left: auto;
+        right: 0;
+    }
+}
+
+//slider style two start here
+
+.kslider-2 {
+    padding: 0px;
+}
+.kslider--subtitle__two {
+    font-size: 18px;
+    font-weight: 700;
+    color: $white-color;
+    display: inline-block;
+    padding: 20px 45px;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255,0.2);
+    background-color: rgba(36, 38, 41,0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.kslider--title__two {
+    font-size: 110px;
+    font-weight: 900;
+    color: $white-color;
+    line-height: 1;
+    @include mq(xs){
+        font-size: 65px;
+        line-height: 1.2;
+    }
+}
+.slider-height-2 {
+    & .common-shape-wrapper {
+        opacity: 0.7;
+        background: $heading-color;
+        & .common-shape-inner {
+            background: $theme-color;
+            opacity: 0.7;
+        }
+    }
+}
+.slider-active-2 div.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+    right: auto;
+    width: 250px;
+    text-align: center;
+}
