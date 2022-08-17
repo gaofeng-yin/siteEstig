@@ -63,12 +63,12 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
             <div className="side-info-content">
                 <div className="mm-menu">
                   <ul>
-                    <li className={home ? "has-droupdown active" : "has-droupdown"}>
+                    <li>{/*className={home ? "has-droupdown active" : "has-droupdown"} */}
                       <a onClick={() => { openMobileMenu('home'); }}>Home</a>
-                      <ul className={home ? "sub-menu active" : "sub-menu"}>
+                     {/* <ul className={home ? "sub-menu active" : "sub-menu"}>
                           <li><Link href="/"><a>Home Style 1</a></Link></li>
                           <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li><Link href="/about"><a>About</a></Link></li>
                     <li className={courses ? "has-droupdown active" : "has-droupdown"}>
