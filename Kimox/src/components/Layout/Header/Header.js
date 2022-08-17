@@ -53,12 +53,18 @@ const Header = () => {
                               <nav id="mobile-menu">
                                  <ul>
                                     <li className="menu-item-has-children"><Link href="/"><a>Home</a></Link>
-                                       <ul className="sub-menu">
+                                       {/*<ul className="sub-menu">
                                           <li><Link href="/"><a>Home Style 1</a></Link></li>
                                           <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
-                                       </ul>
+                                          </ul>*/}
                                     </li>
                                     <li><Link href="/about"><a>About</a></Link></li>
+                                    <li className="menu-item-has-children"><Link href="/blog"><a>Blog</a></Link>
+                                       <ul className="sub-menu">
+                                          <li><Link href="/blog"><a>Blog</a></Link></li>
+                                          <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
+                                       </ul>
+                                    </li>
                                     <li className="menu-item-has-children"><Link href="/service"><a>Services</a></Link>
                                        <ul className="sub-menu">
                                           <li><Link href="/service"><a>Services</a></Link></li>
@@ -71,12 +77,6 @@ const Header = () => {
                                           <li><Link href="/project-details"><a>Projects Details</a></Link></li>
                                        </ul>
                                     </li>
-                                    <li className="menu-item-has-children"><Link href="/blog"><a>Blog</a></Link>
-                                       <ul className="sub-menu">
-                                          <li><Link href="/blog"><a>Blog</a></Link></li>
-                                          <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
-                                       </ul>
-                                    </li>
                                     <li><a href="#">Pages</a>
                                        <ul className="sub-menu">
                                           <li><Link href="/pricing"><a>Pricing</a></Link></li>
@@ -84,9 +84,9 @@ const Header = () => {
                                           <li><Link href="/about"><a>About</a></Link></li>
                                           <li><Link href="/project"><a>Project</a></Link></li>
                                           <li><Link href="/project-details"><a>Project Details</a></Link></li>
-                                          <li><Link href="/contact"><a>Contact</a></Link></li>
                                        </ul>
                                     </li>
+                                    <li><Link href="/contact"><a>Contact</a></Link></li>
                                  </ul>
                               </nav>
                            </div>
