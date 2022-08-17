@@ -44,7 +44,7 @@ class Video extends Component {
                     center
                 >
                     <ReactPlayer
-                    url="https://youtu.be/es4x5R-rV9s"
+                    url="https://www.youtube.com/watch?v=4DfqI-Vd5I8"
                     width="100%"
                     height="calc(100vh - 100px)"
                     />
@@ -65,11 +65,7 @@ class Video extends Component {
                                     <div className="kvideo" style={{ backgroundImage:`url(${'assets/img/bg/video-bg.jpg'})`}}>
                                         <div className="kvideo-sign text-center">
                                             <a href="#!" className="play-btn" onClick={this.onOpenModal}> <i><FontAwesomeIcon icon={['fas', 'play']} /></i> </a>
-                                            <h2>Watch Video</h2>
-                                        </div>
-                                        <div className="kvideo-number">
-                                            <span>get estimate</span>
-                                            <a href="tel:6668880000">666 888 0000</a>
+                                            <h2>Veja o Video</h2>
                                         </div>
                                     </div>
                                 </div>
