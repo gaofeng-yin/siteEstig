@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+let year = new Date().getFullYear();
+
 const FooterBottom = () => {
     return (
         <div className="copyright-area">
@@ -9,7 +11,7 @@ const FooterBottom = () => {
                      <div className="row align-items-center">
                         <div className="col-md-6">
                            <div className="copyright">
-                                 <span>Copyright ©2022 BDevs. All Rights Reserved</span>
+                                 <span>Copyright ©{year} JoYi Labs All Rights Reserved</span>
                            </div>
                         </div>
                         <div className="col-md-6">
