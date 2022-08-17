@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Cta extends Component {
 
@@ -11,11 +12,11 @@ class Cta extends Component {
                     <div className="cta-bg bg-theme">
                         <div className="cta-number">
                             <div className="cta-number-icon mr-30">
-                                <img src="assets/img/icon/cta-icon.png" className="img-fluid" alt="cta-icon"/>
+                                <a href="https://www.instagram.com/gaofing/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                             </div>
                             <div className="cta-number-text fix">
-                                <span className="uppercase">Get a Free Consultation</span>
-                                <h3><a href="tell:6668880000">666 888 0000</a></h3>
+                                <span className="uppercase">Segue-nos no Instagram</span>
+                                <h3><a href="https://www.instagram.com/gaofing/" target="_blank">@aeestig</a></h3>
                             </div>
                         </div>
                         <div className="cta-description">
@@ -23,7 +24,7 @@ class Cta extends Component {
                                 cing elituspe ndisse suscipit.</p>
                         </div>
                         <div className="cta-btn text-lg-end text-start">
-                            <Link href="/service"><a className="theme-btn black-btn">Discover more</a></Link>
+                            <Link href="/contact"><a className="theme-btn black-btn">Fala Connosco</a></Link>
                         </div>
                     </div>
                 </div>
