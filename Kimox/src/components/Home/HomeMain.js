@@ -68,11 +68,11 @@ class HomeMain extends Component {
 				{/* blog-end */}
 
                 {/* quality-start */}
-				<Quality />
+				{/*  <Quality /> */}
 				{/* quality-end */}
 
                 {/* map-start */}
-				<Map />
+				{/*  <Map /> */}
 				{/* map-end */}
 
         	</main>
