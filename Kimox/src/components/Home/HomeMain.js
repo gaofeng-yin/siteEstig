@@ -52,7 +52,7 @@ class HomeMain extends Component {
 				{/* video-end */}
 
                 {/* testimonial-start */}
-				<Testimonial />
+				{/* <Testimonial /> */}
 				{/* testimonial-end */}
 
                 {/* brand-start */}
