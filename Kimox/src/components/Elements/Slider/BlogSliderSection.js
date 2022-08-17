@@ -75,10 +75,6 @@ class BlogSlider extends Component {
                                                     <span>20 May</span>
                                                 </div>
                                                 <div className="kblog-text">
-                                                    <div className="kblog-meta">
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> by Admin</a></Link>
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> 2 Comments</a></Link>
-                                                    </div>
                                                     <h3 className="kblog-text-title mb-20">
                                                         <Link href="/blog-details"><a>Our Strategy Create Business Growth</a></Link>
                                                     </h3>
@@ -96,10 +92,6 @@ class BlogSlider extends Component {
                                                     <span>21 May</span>
                                                 </div>
                                                 <div className="kblog-text">
-                                                    <div className="kblog-meta">
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> by Admin</a></Link>
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> 2 Comments</a></Link>
-                                                    </div>
                                                     <h3 className="kblog-text-title mb-20">
                                                         <Link href="/blog-details"><a>We work with change oriented executives</a></Link>
                                                     </h3>
@@ -117,10 +109,6 @@ class BlogSlider extends Component {
                                                     <span>22 May</span>
                                                 </div>
                                                 <div className="kblog-text">
-                                                    <div className="kblog-meta">
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> by Admin</a></Link>
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> 2 Comments</a></Link>
-                                                    </div>
                                                     <h3 className="kblog-text-title mb-20">
                                                         <Link href="/blog-details"><a>From banking and insurance to wealth</a></Link>
                                                     </h3>
@@ -138,10 +126,6 @@ class BlogSlider extends Component {
                                                     <span>24 May</span>
                                                 </div>
                                                 <div className="kblog-text">
-                                                    <div className="kblog-meta">
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> by Admin</a></Link>
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> 2 Comments</a></Link>
-                                                    </div>
                                                     <h3 className="kblog-text-title mb-20">
                                                         <Link href="/blog-details"><a>Our Strategy Create Business Growth</a></Link>
                                                     </h3>
@@ -159,10 +143,10 @@ class BlogSlider extends Component {
                                                     <span>25 May</span>
                                                 </div>
                                                 <div className="kblog-text">
-                                                    <div className="kblog-meta">
+                                                   {/*  <div className="kblog-meta">
                                                         <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> by Admin</a></Link>
                                                         <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> 2 Comments</a></Link>
-                                                    </div>
+                                                    </div> */}
                                                     <h3 className="kblog-text-title mb-20">
                                                         <Link href="/blog-details"><a>We work with change oriented executives</a></Link>
                                                     </h3>
