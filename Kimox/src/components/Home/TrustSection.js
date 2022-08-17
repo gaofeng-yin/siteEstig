@@ -12,9 +12,9 @@ class Trust extends Component {
                         <div className="row">
                             <div className="col-12">
                                 <div className="ktrust text-center z-index">
-                                    <h2 className="ktrust-title mb-45 wow fadeInUp" data-wow-delay=".2s">Trust the Experts for All <br/>Your business Needs</h2>
+                                    <h2 className="ktrust-title mb-45 wow fadeInUp" data-wow-delay=".2s">Torna-te sócio</h2>
                                     <div className="ktrust-btn">
-                                        <Link href="/service"><a className="theme-btn">Discover more</a></Link>
+                                        <Link href="/service"><a className="theme-btn">Quero ser sócio</a></Link>
                                     </div>
                             </div>
                         </div>
