@@ -27,43 +27,47 @@ class Service extends Component {
                         </div>
                         <div className="col-xxl-6 col-lg-6">
                             <div className="row custom-mar-20" data-aos="fade-down" data-aos-duration="1000">
+                               {/*1*/}
                                 <div className="col-sm-6 custom-pad-20">
                                     <div className="kservice text-center mb-20">
                                         <div className="kservice-icon">
-                                            <i><FontAwesomeIcon icon={['fas', 'edit']} /></i>
+                                            <i><FontAwesomeIcon icon={['fas', 'fa-user']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Website <br/>Development</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Sócios</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>
+                                {/*2*/}
                                 <div className="col-sm-6 custom-pad-20">
                                     <div className="kservice text-center mb-20">
                                         <div className="kservice-icon">
-                                            <i><FontAwesomeIcon icon={['fas', 'chart-line']} /></i>
+                                            <i><FontAwesomeIcon icon={['fas', 'fa-building']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Graphic <br/>Designing</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Alojamentos</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>
+                                {/*3*/}
                                 <div className="col-sm-6 custom-pad-20">
                                     <div className="kservice text-center mb-20">
                                         <div className="kservice-icon">
-                                            <i><FontAwesomeIcon icon={['fas', 'chart-bar']} /></i>
+                                            <i><FontAwesomeIcon icon={['fas', 'fa-newspaper']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>SEO & Content <br/>writting</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Notícias</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>
+                                {/*4*/}
                                 <div className="col-sm-6 custom-pad-20">
                                     <div className="kservice text-center mb-20">
                                         <div className="kservice-icon">
-                                            <i><FontAwesomeIcon icon={['fas', 'american-sign-language-interpreting']} /></i>
+                                            <i><FontAwesomeIcon icon={['fas', 'fa-file-pdf']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Digital <br/>marketing</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Documentos</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>
