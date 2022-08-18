@@ -11,20 +11,10 @@ class Contact extends Component {
                 <div className="row">
                     <div className="col-xxl-5 col-xl-6 col-lg-6">
                         <div className="section-title-wrapper mb-15">
-                            <h5 className="section-subtitle mb-20">contact with us</h5>
-                            <h2 className="section-title">Speak with our
-                                consultant</h2>
+                            <h5 className="section-subtitle mb-20">Entre em contacto connosco</h5>
+                            <h2 className="section-title">Fala com um dos nossos membros</h2>
                         </div>
                         <div className="contact-info mr-50 mr-xs-0  mr-md-0">
-                            <div className="single-contact-info d-flex align-items-center">
-                                <div className="contact-info-icon">
-                                    <a href="#"><i><FontAwesomeIcon icon={['fas', 'comments']} /></i></a>
-                                </div>
-                                <div className="contact-info-text mt-10">
-                                    <span>Call Anytime</span>
-                                    <h5><a href="tell:926668880000">92 666 888 0000</a></h5>
-                                </div>
-                            </div>
                             <div className="single-contact-info d-flex align-items-center">
                                 <div className="contact-info-icon">
                                     <a href="#"><i><FontAwesomeIcon icon={['fas', 'envelope']} /></i></a>
@@ -34,15 +24,6 @@ class Contact extends Component {
                                     <h5><a href="mailto:needhelp@company.com">needhelp@company.com</a> </h5>
                                 </div>
                             </div>
-                            <div className="single-contact-info d-flex align-items-center">
-                                <div className="contact-info-icon">
-                                    <a href="#"><i><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /></i></a>
-                                </div>
-                                <div className="contact-info-text mt-10">
-                                    <span>visit office</span>
-                                    <h5><a href="#">86 Road Broklyn Street, New York</a></h5>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className="col-xxl-7 col-xl-6 col-lg-6">
@@ -50,22 +31,22 @@ class Contact extends Component {
                             <form action="mail.php" id="contact-form" method="POST">
                                 <div className="row">
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="name" type="text" placeholder="Your Name"/>
+                                        <input name="name" type="text" placeholder="Nome" required />
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="email" type="email" placeholder="Email Adress"/>
+                                        <input name="email" type="email" placeholder="Email" required/>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="phone" type="text" placeholder="Phone"/>
+                                        <input name="phone" type="number" placeholder="Telemóvel"/>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="subject" type="text" placeholder="Subject"/>
+                                        <input name="subject" type="text" placeholder="Assunto" required/>
                                     </div>
                                     <div className="col-xxl-12 col-xl-12 col-lg-12 mb-20">
-                                        <textarea placeholder="Write Massage" name="massage"></textarea>
+                                        <textarea placeholder="Escreve a tua mensagem" name="mensagem" required></textarea>
                                     </div>
                                     <div className="col-xxl-12 col-xl-12 mb-20">
-                                        <button type="submit" className="theme-btn border-btn">Send a message</button>
+                                        <button type="submit" className="theme-btn border-btn">Enviar</button>
                                     </div>
                                 </div>
                             </form>
