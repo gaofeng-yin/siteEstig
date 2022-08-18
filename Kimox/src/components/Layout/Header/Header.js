@@ -35,7 +35,7 @@ const Header = () => {
    return (
       <React.Fragment>
          <Head>
-            <title>Kimox – Digital Agency React, NextJs Template</title>
+            <title>AE ESTIG</title>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
          </Head>
          <header>
@@ -58,7 +58,7 @@ const Header = () => {
                                           <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
                                           </ul>*/}
                                     </li>
-                                    <li><Link href="/about"><a>About</a></Link></li>
+                                    <li><Link href="/about"><a>Sobre Nós</a></Link></li>
                                     <li className="menu-item-has-children"><Link href="/blog"><a>Blog</a></Link>
                                        <ul className="sub-menu">
                                           <li><Link href="/blog"><a>Blog</a></Link></li>

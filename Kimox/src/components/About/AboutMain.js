@@ -20,7 +20,7 @@ class AboutMain extends Component {
         return (
             <main>
                 {/* breadcrumb-start */}
-				<Breadcrumb pageTitle="About" />
+				<Breadcrumb pageTitle="Sobre Nós" />
 				{/* breadcrumb-end */}
 
                 {/* mission-start */}
@@ -28,17 +28,23 @@ class AboutMain extends Component {
 				{/* mission-end */}
 
                 {/* testimonial-start */}
+                {/*
                 <div className='mt--30'>
                     <Testimonial />
                 </div>
+                */}
 				{/* testimonial-end */}
 
                 {/* fact-start */}
-				<FactTwo />
+				{/* 
+                <FactTwo />
+                 */}
 				{/* fact-end */}
 
                 {/* why-we-start */}
+                {/* 
 				<WhyWeTwo />
+                */}
 				{/* why-we-end */}
 
                 {/* team-start */}
@@ -46,7 +52,9 @@ class AboutMain extends Component {
 				{/* team-end */}
 
                 {/* brand-start */}
+                {/* 
 				<BrandThree />
+                */}
 				{/* brand-end */}
 
         	</main>

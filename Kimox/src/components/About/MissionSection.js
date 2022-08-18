@@ -22,20 +22,11 @@ class Mission extends Component {
                                 sit met entum is not estibulum dignissim posuere cubilia durae. Leo sit met entum cubilia crae.
                                 but also the leap into electronic typesetting. 
                             </p>
-                            <div className="ktrust-btn">
-                                <Link href="/service"><a className="theme-btn border-btn">Discover more</a></Link>
-                            </div>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6">
                         <div className="kintro-img mb-30" data-aos="fade-right" data-aos-duration="1000">
                             <img src="assets/img/about/about-img-6.jpg" className="img-fluid" alt="about-img"/>
-                            <div className="mission-img-text">
-                                <h4>We’re committed to
-                                    trusted Agency
-                                </h4>
-                                <Link href="/project"><a>Get Started</a></Link>
-                            </div>
                         </div>
                     </div>
                 </div>

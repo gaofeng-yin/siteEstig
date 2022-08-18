@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer = () => {
 
     return (
-      <footer style={{ backgroundImage:`url(${'assets/img/bg/footer-bg.jpg'})`}} className="pt-95 position-relative">
+      <footer style={{ backgroundColor: "#434343" }} className="pt-95 position-relative">
          <div className="common-shape-wrapper wow slideInRight animated" data-wow-delay="0ms" data-wow-duration="1500ms">
             <div className="common-shape-inner wow slideInRight animated" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
          </div>
@@ -20,9 +20,7 @@ const Footer = () => {
                            </div>
                            <p className="mb-20 pr-35">There are many vari of pass of lorem ipsum availab but the majority have suffered in some form by injected humour or words.</p>
                            <div className="footer-social">
-                              <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
                               <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
-                              <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'pinterest-p']} /></i></a>
                               <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                            </div>
                         </div>
@@ -49,18 +47,7 @@ const Footer = () => {
                            </ul>
                         </div>
                      </div>
-                     <div className="col-lg-3 col-sm-6">
-                        <div className="widget mb-30">
-                           <h4 className="widget-title mb-30">Newsletter</h4>
-                           <p className="mb-20">Subscribe to Our Newsletter for Daily News and Updates</p>
-                           <div className="widget-newsletter">
-                                 <form action="#">
-                                    <input type="email" placeholder="Email Address"/>
-                                    <button type="submit">Send</button>
-                                 </form>
-                           </div>
-                        </div>
-                     </div>
+
                </div>
             </div>
          </div>
