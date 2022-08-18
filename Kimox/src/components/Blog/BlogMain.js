@@ -13,7 +13,7 @@ class BlogMain extends Component {
             <main>
 
                 {/* breadcrumb-start */}
-				<Breadcrumb pageTitle="Blog" />
+				<Breadcrumb pageTitle="Nóticias" />
 				{/* breadcrumb-end */}
 
                 <section className="blog-2 pt-120 pb-115">
@@ -25,7 +25,7 @@ class BlogMain extends Component {
                             </div>
                             ))}
                         </div>
-                        <PaginationSection />
+                       {/* <PaginationSection /> */}
                     </div>
                 </section>
         	</main>

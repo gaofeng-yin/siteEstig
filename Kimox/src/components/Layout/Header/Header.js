@@ -59,11 +59,11 @@ const Header = () => {
                                           </ul>*/}
                                     </li>
                                     <li><Link href="/about"><a>Sobre Nós</a></Link></li>
-                                    <li className="menu-item-has-children"><Link href="/blog"><a>Blog</a></Link>
-                                       <ul className="sub-menu">
+                                    <li className="menu-item-has-children"><Link href="/blog"><a>Nóticias</a></Link>
+                                       {/*<ul className="sub-menu">
                                           <li><Link href="/blog"><a>Blog</a></Link></li>
                                           <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
-                                       </ul>
+                                       </ul> */}
                                     </li>
                                     <li className="menu-item-has-children"><Link href="/service"><a>Services</a></Link>
                                        <ul className="sub-menu">

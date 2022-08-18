@@ -13,10 +13,6 @@ const ArticleLayout = ({ post }) => {
                 <span>{post.date}</span>
             </div>
             <div className="kblog-text">
-                <div className="kblog-meta">
-                    <Link href={post.url}><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> {post.user}</a></Link>
-                    <Link href={post.url}><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> {post.comments}</a></Link>
-                </div>
                 <h3 className="kblog-text-title mb-20">
                     <Link href={post.url}><a>{post.title}</a></Link>
                 </h3>

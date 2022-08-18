@@ -5,16 +5,7 @@ import store from '../../redux/store';
 import ReactGA from 'react-ga';
 import articleDetails from '../../sample-data/blog-posts/single-post.json';
 import Breadcrumb from '../Common/Breadcrumb';
-import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import BlogAuthor from './BlogAuthorSection';
-import BlogComment from './BlogCommentSection';
-import BlogCommentForm from './BlogCommentForm';
 import BlogDetailsInfo from './BlogDetailsInfo';
-import BlogSidebarSearch from './BlogSidebarSearch';
-import BlogSidebarPost from './BlogSidebarPost';
-import BlogSidebarCat from './BlogSidebarCat';
-import BlogSidebarTags from './BlogSidebarTags';
 
 class BlogDetailsMain extends Component {
 
@@ -66,10 +57,10 @@ class BlogDetailsMain extends Component {
                 {/* breadcrumb-area-start */}
 
                 {/* blog-area start */}
-                <section className="blog-details-area  pt-120 pb-100">
+                <section className="blog-details-area  pt-120 pb-60">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12">
+                            <div>
                                 {newsDetails && newsDetails.map((article, num) => (
                                 <div key={num}>
                                     <div className="kblog">
@@ -78,10 +69,6 @@ class BlogDetailsMain extends Component {
                                             <span>21 May</span>
                                         </div>
                                         <div className="kblog-text kblog-text2 kblog-text22">
-                                            <div className="kblog-meta pb-10">
-                                                <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> {article.user}</a></Link>
-                                                <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> {article.comments}</a></Link>
-                                            </div>
                                             <p className="mb-20">{article.text}</p>
                                             <p>{article.textTwo}</p>
                                         </div>
@@ -89,17 +76,17 @@ class BlogDetailsMain extends Component {
 
                                     <BlogDetailsInfo />
 
-                                    <BlogAuthor />
+                                    {/* <BlogAuthor /> */}
 
-                                    <BlogComment />
-
-                                    <BlogCommentForm />
+                                    {/* <BlogComment /> */}
+                                    
+                                    {/* <BlogCommentForm /> */}
                                     
                                 </div>
                                 ))}
 
                             </div>
-                            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 mt-md-40 mt-xs-40">
+                            {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 mt-md-40 mt-xs-40">
                                 <div className="sidebar-wrap">
                                     <BlogSidebarSearch />
 
@@ -109,7 +96,7 @@ class BlogDetailsMain extends Component {
 
                                     <BlogSidebarTags />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
