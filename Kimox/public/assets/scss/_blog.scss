@@ -667,22 +667,7 @@
 }
 
 .blog-details-area {
-    @include mq(xs){
-        .blog-author-img.f-left {
-            margin-right: 0px;
-            margin-bottom: 20px;
-        }
-        .blog-single-comment.d-flex {
-            display: inherit !important;
-        }
-        .blog-comment-box .blog-single-comment .blog-comment-img {
-            margin-bottom: 20px;
-            width: inherit;
-        }
-        .blog-author-img.f-left {
-            float: none;
-        }
-    }
+
 }
 
 .blog-comment-form {
