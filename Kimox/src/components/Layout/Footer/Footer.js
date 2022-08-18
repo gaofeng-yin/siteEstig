@@ -29,11 +29,10 @@ const Footer = () => {
                         <div className="widget mb-30">
                            <h4 className="widget-title mb-35">Links</h4>
                            <ul>
-                                 <li><Link href="/service"><a>Our Services</a></Link></li>
-                                 <li><Link href="/about"><a>Meet Our Team</a></Link></li>
-                                 <li><Link href="/project"><a>Our Portfolio</a></Link></li>
-                                 <li><Link href="/contact"><a>Contact</a></Link></li>
-                                 <li><Link href="/contact"><a>Help</a></Link></li>
+                                 <li><Link href="/service"><a>Sócio</a></Link></li>
+                                 <li><Link href="/blog"><a>Notícias</a></Link></li>
+                                 <li><Link href="/about"><a>Sobre Nós</a></Link></li>
+                                 <li><Link href="/contact"><a>Contacto</a></Link></li>
                            </ul>
                         </div>
                      </div>
@@ -43,7 +42,6 @@ const Footer = () => {
                            <ul>
                                  <li className="pb-10">86 Road Broklyn Street, 600 <br/>New York, USA</li>
                                  <li><img src="assets/img/icon/footer-icon-1.png" className="img-fluid" alt="icon-img"/><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                                 <li><img src="assets/img/icon/footer-icon-2.png" className="img-fluid" alt="icon-img"/><a href="tel:926668880000">92 666 888 0000</a></li>
                            </ul>
                         </div>
                      </div>
