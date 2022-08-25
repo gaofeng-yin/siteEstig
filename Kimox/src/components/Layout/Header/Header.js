@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import BurgerMenus from './BurgerMenus';
-import HeaderSearch from './HeaderSearch';
 
 const Header = () => {
 
@@ -53,17 +52,9 @@ const Header = () => {
                               <nav id="mobile-menu">
                                  <ul>
                                     <li className="menu-item-has-children"><Link href="/"><a>Home</a></Link>
-                                       {/*<ul className="sub-menu">
-                                          <li><Link href="/"><a>Home Style 1</a></Link></li>
-                                          <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
-                                          </ul>*/}
                                     </li>
                                     <li><Link href="/about"><a>Sobre Nós</a></Link></li>
                                     <li className="menu-item-has-children"><Link href="/blog"><a>Notícias</a></Link>
-                                       {/*<ul className="sub-menu">
-                                          <li><Link href="/blog"><a>Blog</a></Link></li>
-                                          <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
-                                       </ul> */}
                                     </li>
                                     <li className="menu-item-has-children"><Link href="/service"><a>Services</a></Link>
                                        <ul className="sub-menu">
@@ -91,7 +82,6 @@ const Header = () => {
                               </nav>
                            </div>
                            <div className="side-menu-icon d-xl-none text-end">
-                              <a className="search-btn nav-search search-trigger" href="#!" onClick={() => { setSearchOpen(!searchOpen) }}><i><FontAwesomeIcon icon={['fas', 'search']} /></i></a>
                               <button className="side-toggle" onClick={() => { setMenuOpen(!menuOpen) }}><i><FontAwesomeIcon icon={['fas', 'bars']} /></i></button>
                            </div>
                         </div>
@@ -110,9 +100,6 @@ const Header = () => {
 
             <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div onClick={() => setMenuOpen(false)} className={menuOpen ? "body-overlay show" : "body-overlay"}></div>
-
-            <HeaderSearch searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
-            <div onClick={() => setSearchOpen(false)} className={searchOpen ? "body-overlay show" : "body-overlay"}></div>
 
          </header>
       </React.Fragment>

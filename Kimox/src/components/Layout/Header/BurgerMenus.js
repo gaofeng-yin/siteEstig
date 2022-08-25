@@ -108,12 +108,9 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                         <ul>
                             <li><img src="assets/img/icon/sidebar-icon-1.png" className="img-fluid" alt="icon-img"/>86 broklyn street road, New York</li>
                             <li><img src="assets/img/icon/footer-icon-1.png" className="img-fluid" alt="icon-img"/><a href="mailto:info@sycho24.com">needhelp@company.com</a></li>
-                            <li><img src="assets/img/icon/footer-icon-2.png" className="img-fluid" alt="icon-img"/><a href="tel:926668880000">92 666 888 0000</a></li>
                         </ul>
                         <div className="sidebar__menu--social">
-                            <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
                             <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
-                            <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'pinterest-p']} /></i></a>
                             <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                         </div>
                     </div>
