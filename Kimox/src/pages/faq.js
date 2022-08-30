@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Layout/Header/Header';
-import FooterTwo from '../components/Layout/Footer/FooterTwo';
+import Footer from '../components/Layout/Footer/Footer';
 import FaqMain from '../components/Faq/FaqMain';
 
 class FaqPage extends React.Component {
@@ -16,7 +16,7 @@ class FaqPage extends React.Component {
             <React.Fragment>
             <Header />
             <FaqMain />
-            <FooterTwo />
+            <Footer />
             </React.Fragment>
         );
     }
