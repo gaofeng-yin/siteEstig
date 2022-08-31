@@ -38,7 +38,7 @@ class HomeSlider extends Component {
                                disableOnInteraction: true
                            }}
                             pagination={{ clickable: true }}
-                            // scrollbar={{ draggable: true }}
+                            //scrollbar={{ draggable: true }}
                             // navigation={{ clickable: true }}
                             onSwiper={(swiper) => console.log(swiper)}
                             onSlideChange={() => console.log('slide change')}
@@ -59,8 +59,9 @@ class HomeSlider extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="slide-shape shape-1"><img src="assets/img/slider/slider-shape-1.png" className="img-fluid" alt="shape-img"/></div>
-                                <div className="slide-shape shape-2"><img src="assets/img/slider/slider-shape-2.png" className="img-fluid" alt="shape-img"/></div>
+                                {/* add this in case you want to image to appear on initial slider */}
+                                {/*<div className="slide-shape shape-1"><img src="assets/img/slider/slider-shape-1.png" className="img-fluid" alt="shape-img"/></div>
+                                <div className="slide-shape shape-2"><img src="assets/img/slider/slider-shape-2.png" className="img-fluid" alt="shape-img"/></div>*/}
                             </div>
                         </SwiperSlide>
 
@@ -80,8 +81,6 @@ class HomeSlider extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="slide-shape shape-1"><img src="assets/img/slider/slider-shape-1.png" className="img-fluid" alt="shape-img"/></div>
-                                <div className="slide-shape shape-2"><img src="assets/img/slider/slider-shape-2.png" className="img-fluid" alt="shape-img"/></div>
                             </div>
                         </SwiperSlide>
 
@@ -101,8 +100,6 @@ class HomeSlider extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="slide-shape shape-1"><img src="assets/img/slider/slider-shape-1.png" className="img-fluid" alt="shape-img"/></div>
-                                <div className="slide-shape shape-2"><img src="assets/img/slider/slider-shape-2.png" className="img-fluid" alt="shape-img"/></div>
                             </div>
                         </SwiperSlide>
                         </Swiper>

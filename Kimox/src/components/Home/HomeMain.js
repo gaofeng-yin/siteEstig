@@ -14,8 +14,6 @@ const Brand = dynamic(() => import('../Elements/Brand/BrandSection'), {
     ssr: false
 })
 import Trust from './TrustSection';
-import Quality from './QualitySection';
-import Map from './MapSection';
 import Project from './ProjectSection';
 const BlogSlider = dynamic(() => import('../Elements/Slider/BlogSliderSection'), {
     ssr: false

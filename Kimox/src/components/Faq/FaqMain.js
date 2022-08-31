@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
-import FaqAccordion from './FaqAccordion';
+import Map from './MapSection';
 
 
 class FaqMain extends Component {
@@ -14,7 +14,7 @@ class FaqMain extends Component {
 				{/* breadcrumb-end */}
 
                 {/* faq-start */}
-                <FaqAccordion />
+				<Map />
 				{/* faq-end */}
         	</main>
         );
