@@ -69,14 +69,6 @@ const Header = () => {
                                           <li><Link href="/project-details"><a>Projects Details</a></Link></li>
                                        </ul>
                                     </li>
-                                    {/*<li><a href="#">Pages</a>
-                                       <ul className="sub-menu">
-                                          <li><Link href="/pricing"><a>Pricing</a></Link></li>
-                                          <li><Link href="/about"><a>About</a></Link></li>
-                                          <li><Link href="/project"><a>Project</a></Link></li>
-                                          <li><Link href="/project-details"><a>Project Details</a></Link></li>
-                                       </ul>
-                                    </li>*/}
                                     <li><Link href="/contact"><a>Contacto</a></Link></li>
                                  </ul>
                               </nav>

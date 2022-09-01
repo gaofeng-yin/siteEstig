@@ -63,12 +63,8 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
             <div className="side-info-content">
                 <div className="mm-menu">
                   <ul>
-                    <li>{/*className={home ? "has-droupdown active" : "has-droupdown"} */}
+                    <li>
                       <a onClick={() => { openMobileMenu('home'); }}>Home</a>
-                     {/* <ul className={home ? "sub-menu active" : "sub-menu"}>
-                          <li><Link href="/"><a>Home Style 1</a></Link></li>
-                          <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
-                      </ul> */}
                     </li>
                     <li><Link href="/about"><a>About</a></Link></li>
                     <li className={courses ? "has-droupdown active" : "has-droupdown"}>
@@ -92,13 +88,6 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                           <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
                       </ul>
                     </li>
-                    <li className={pages ? "has-droupdown active" : "has-droupdown"}>
-                      <a onClick={() => { openMobileMenu('pages'); }}>Pages</a>
-                      <ul className={pages ? "sub-menu active" : "sub-menu"}>
-                          <li><Link href="/pricing"><a>Pricing</a></Link></li>
-                          <li><Link href="/faq"><a>Faq</a></Link></li>
-                    </ul>
-                  </li>
                   <li><Link href="/contact"><a>Contact</a></Link></li>
                 </ul>
               </div>
