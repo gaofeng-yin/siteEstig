@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
-import FaqMain from '../components/Faq/FaqMain';
+import FaqMain from '../components/Habitacao/HabitacaoMain';
 
-class FaqPage extends React.Component {
+class HabitacaoPage extends React.Component {
 
     static getInitialProps({store}) {}
 
@@ -23,5 +23,5 @@ class FaqPage extends React.Component {
 }
 
 
-export default FaqPage;
+export default HabitacaoPage;
 

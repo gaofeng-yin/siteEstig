@@ -62,7 +62,7 @@ const Header = () => {
                                           <li><Link href="/service-details"><a>Services Details</a></Link></li>
                                        </ul>
                                     </li>
-                                    <li><Link href="/faq"><a>Habitação</a></Link></li>
+                                    <li><Link href="/habitacao"><a>Habitação</a></Link></li>
                                     <li className="menu-item-has-children"><Link href="/project"><a>Foto</a></Link>
                                        <ul className="sub-menu">
                                           <li><Link href="/project"><a>Projects</a></Link></li>
