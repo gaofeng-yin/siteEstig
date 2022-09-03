@@ -16,29 +16,17 @@ class ServiceMain extends Component {
 
         return (
             <main>
-                {/* breadcrumb-start */}
-				<Breadcrumb pageTitle="Services" />
-				{/* breadcrumb-end */}
+				<Breadcrumb pageTitle="Sócio" />
 
-                {/* service-start */}
                <ServiceThree />
-				{/* service-end */}
 
-                {/* whywe-start */}
                 <WhyWeThree />
-				{/* whywe-end */}
 
-                {/* service-start */}
 				<ServiceFour />
-				{/* service-end */}
 
-                {/* brand-start */}
                 <BrandFour />
-				{/* brand-end */}
 
-                {/* Quality-start */}
                 <Quality />
-				{/* Quality-end */}
         	</main>
         );
     }

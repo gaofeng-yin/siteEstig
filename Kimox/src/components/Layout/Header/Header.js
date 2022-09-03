@@ -55,7 +55,7 @@ const Header = () => {
                                     <li><Link href="/"><a>Home</a></Link></li>
                                     <li><Link href="/about"><a>Sobre Nós</a></Link></li>
                                     <li><Link href="/blog"><a>Notícias</a></Link></li>
-                                    <li><Link href="/service"><a>Sócio</a></Link></li>
+                                    <li><Link href="/socio"><a>Sócio</a></Link></li>
                                     <li><Link href="/habitacao"><a>Habitação</a></Link></li>
                                     <li><Link href="/photo"><a>Foto</a></Link></li>
                                     <li><Link href="/contact"><a>Contacto</a></Link></li>

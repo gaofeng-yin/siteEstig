@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
-import ServiceMain from '../components/Service/ServiceMain';
+import SocioMain from '../components/Socio/SocioMain';
 
 class ServicePage extends React.Component {
 
@@ -15,7 +15,7 @@ class ServicePage extends React.Component {
         return (
             <React.Fragment>
             <Header />
-            <ServiceMain />
+            <SocioMain />
             <Footer />
             </React.Fragment>
         );
