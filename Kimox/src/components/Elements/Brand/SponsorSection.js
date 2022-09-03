@@ -5,7 +5,7 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay, } from 'swiper';
 // Import Swiper styles
 import 'swiper/css/bundle'
 
-class Brand extends Component {
+class Sponsor extends Component {
 
     render() {
 
@@ -82,4 +82,4 @@ class Brand extends Component {
     }
 }
 
-export default Brand;
+export default Sponsor;

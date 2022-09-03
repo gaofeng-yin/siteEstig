@@ -7,7 +7,7 @@ import dynamic from 'next/dynamic';
 const HomeSlider = dynamic(() => import('../Elements/Slider/HomeSliderSection'), {
     ssr: false
   })
-const Brand = dynamic(() => import('../Elements/Brand/BrandSection'), {
+const Sponsor = dynamic(() => import('../Elements/Brand/SponsorSection'), {
     ssr: false
 })
 import Trust from './TrustSection';
@@ -34,7 +34,7 @@ class HomeMain extends Component {
 
 				<Video />
 
-				<Brand />
+				<Sponsor />
 
 				<Trust />
 
