@@ -67,36 +67,19 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                       <a onClick={() => { openMobileMenu('home'); }}>Home</a>
                     </li>
                     <li><Link href="/about"><a>About</a></Link></li>
-                    <li className={courses ? "has-droupdown active" : "has-droupdown"}>
-                      <a onClick={() => { openMobileMenu('courses'); }}>Services</a>
-                      <ul className={courses ? "sub-menu active" : "sub-menu"}>
-                          <li><Link href="/service"><a>Services</a></Link></li>
-                          <li><Link href="/service-details"><a>Services Details</a></Link></li>
-                      </ul>
-                    </li>
-                    <li className={project ? "has-droupdown active" : "has-droupdown"}>
-                      <a onClick={() => { openMobileMenu('project'); }}>Projects</a>
-                      <ul className={project ? "sub-menu active" : "sub-menu"}>
-                          <li><Link href="/project"><a>Projects</a></Link></li>
-                          <li><Link href="/project-details"><a>Projects Details</a></Link></li>
-                      </ul>
-                    </li>
-                    <li className={blog ? "has-droupdown active" : "has-droupdown"}>
-                      <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
-                      <ul className={blog ? "sub-menu active" : "sub-menu"}>
-                          <li><Link href="/blog"><a>Blog</a></Link></li>
-                          <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
-                      </ul>
-                    </li>
-                  <li><Link href="/contact"><a>Contact</a></Link></li>
+                    <li><Link href="/blog"><a>Notícias</a></Link></li>
+                    <li><Link href="/service"><a>Sócio</a></Link></li>
+                    <li><Link href="/habitacao"><a>Habitação</a></Link></li>
+                    <li><Link href="/photo"><a>Foto</a></Link></li>
+                    <li><Link href="/contact"><a>Contacto</a></Link></li>
                 </ul>
               </div>
                 <div className="contact-infos mb-30">
                     <div className="contact-list mb-30">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li><img src="assets/img/icon/sidebar-icon-1.png" className="img-fluid" alt="icon-img"/>86 broklyn street road, New York</li>
-                            <li><img src="assets/img/icon/footer-icon-1.png" className="img-fluid" alt="icon-img"/><a href="mailto:info@sycho24.com">needhelp@company.com</a></li>
+                            <li><img src="assets/img/icon/sidebar-icon-1.svg" className="img-fluid" alt="icon-img"/>86 broklyn street road, New York</li>
+                            <li><img src="assets/img/icon/footer-icon-1.svg" className="img-fluid" alt="icon-img"/><a href="mailto:info@sycho24.com">needhelp@company.com</a></li>
                         </ul>
                         <div className="sidebar__menu--social">
                             <a href="https://www.facebook.com/aeestigipb" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
