@@ -34,7 +34,8 @@ const Header = () => {
    return (
       <React.Fragment>
          <Head>
-            <title>AE ESTIG</title>
+            <title>Associação Estudante ESTIG</title>
+            <link href="assets/img/logo/favicon.ico" ></link>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
          </Head>
          <header>
