@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import dynamic from 'next/dynamic';
-const ProjectSlider = dynamic(() => import('../Elements/Slider/ProjectSliderSection'), {
+const PhotoSliderSection = dynamic(() => import('../Elements/Slider/PhotoSliderSection'), {
     ssr: false
   })
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,8 +18,8 @@ class Project extends Component {
                     <div className="row">
                         <div className="col-md-8">
                             <div className="section-title-wrapper mb-45">
-                                <h5 className="section-subtitle mb-20">Our recent work</h5>
-                                <h2 className="section-title">Work showcase</h2>
+                                <h5 className="section-subtitle mb-20">Conheça a tua escola</h5>
+                                <h2 className="section-title">Estig</h2>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -30,7 +30,7 @@ class Project extends Component {
                         </div>
                     </div>
                 </div>
-                <ProjectSlider />
+                <PhotoSliderSection />
             </section>
         );
     }

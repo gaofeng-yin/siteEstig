@@ -11,7 +11,7 @@ const Brand = dynamic(() => import('../Elements/Brand/BrandSection'), {
     ssr: false
 })
 import Trust from './TrustSection';
-import Project from './ProjectSection';
+import Photo from './FotoEscola';
 const BlogSlider = dynamic(() => import('../Elements/Slider/BlogSliderSection'), {
     ssr: false
 })
@@ -22,41 +22,23 @@ class HomeMain extends Component {
 
         return (
             <main>
-	            {/* slider-start */}
 				<HomeSlider />
-				{/* slider-end */}
 
-                {/* service-start */}
 				<Service />
-				{/* service-end */}
 
-                {/* cta-start */}
 				<Cta />
-				{/* cta-end */}
 
-                {/* about-start */}
 				<About />
-				{/* about-end */}
 
-                {/* project-start */}
-				<Project />
-				{/* project-end */}
+				<Photo />
 
-                {/* video-start */}
 				<Video />
-				{/* video-end */}
 
-                {/* brand-start */}
 				<Brand />
-				{/* brand-end */}
 
-                {/* trust-start */}
 				<Trust />
-				{/* trust-end */}
 
-                {/* blog-start */}
 				<BlogSlider />
-				{/* blog-end */}
 
         	</main>
         );
