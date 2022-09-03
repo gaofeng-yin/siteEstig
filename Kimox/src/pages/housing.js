@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
-import FaqMain from '../components/Habitacao/HabitacaoMain';
+import HousingMain from '../components/Housing/HousingMain';
 
-class HabitacaoPage extends React.Component {
+class HousingPage extends React.Component {
 
     static getInitialProps({store}) {}
 
@@ -15,7 +15,7 @@ class HabitacaoPage extends React.Component {
         return (
             <React.Fragment>
             <Header />
-            <FaqMain />
+            <HousingMain />
             <Footer />
             </React.Fragment>
         );
@@ -23,5 +23,5 @@ class HabitacaoPage extends React.Component {
 }
 
 
-export default HabitacaoPage;
+export default HousingPage;
 
