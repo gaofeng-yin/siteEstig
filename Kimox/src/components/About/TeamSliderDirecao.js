@@ -128,6 +128,137 @@ class TeamSliderTwo extends Component {
                             </div>
                         </div>
                     </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="kteam swiper-slide mb-30">
+                            <div className="kteam-img">
+                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <div className="kteam-img-social">
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                </div>
+                            </div>
+                            <div className="kteam-text text-center">
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
+                                <span className="uppercase">Presidente</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
                 </Swiper>
                 </div>
             </div>

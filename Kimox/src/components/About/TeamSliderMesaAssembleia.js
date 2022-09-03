@@ -94,40 +94,6 @@ class TeamSliderTwo extends Component {
                             </div>
                         </div>
                     </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="kteam swiper-slide mb-30">
-                            <div className="kteam-img">
-                                <img src="assets/img/team/team-img-4.jpg" className="img-fluid" alt="team-img"/>
-                                <div className="kteam-img-social">
-                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
-                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
-                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
-                                </div>
-                            </div>
-                            <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>John Smith</a></Link></h4>
-                                <span className="uppercase">artist</span>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="kteam swiper-slide mb-30">
-                            <div className="kteam-img">
-                                <img src="assets/img/team/team-img-5.jpg" className="img-fluid" alt="team-img"/>
-                                <div className="kteam-img-social">
-                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']} /></i></a>
-                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
-                                    <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
-                                </div>
-                            </div>
-                            <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>melinda albert</a></Link></h4>
-                                <span className="uppercase">writter</span>
-                            </div>
-                        </div>
-                    </SwiperSlide>
                 </Swiper>
                 </div>
             </div>
