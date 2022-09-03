@@ -1,9 +1,26 @@
 import React, { Component } from 'react';
 import dynamic from 'next/dynamic';
-const TeamSliderTwo = dynamic(() => import('../Elements/Slider/TeamSliderTwo'), {
+const TeamSliderDirecao = dynamic(() => import('./TeamSliderDirecao'), {
     ssr: false
-  })
-
+  });
+const TeamSliderConcelhoFiscal = dynamic(() => import('./TeamSliderConcelhoFiscal'), {
+    ssr: false
+  });
+const TeamSliderMessaAsssembleia = dynamic(() => import('./TeamSliderMesaAssembleia'), {
+    ssr: false
+  });
+const TeamSliderComunicacaoMedia = dynamic(() => import('./TeamSliderComunicacaoMedia'), {
+    ssr: false
+  });
+const TeamSliderDesportivo = dynamic(() => import('./TeamSliderDesportivo'), {
+    ssr: false
+  });
+const TeamSliderApoioEstudantes = dynamic(() => import('./TeamSliderApoioEstudantes'), {
+    ssr: false
+  });
+const TeamSliderLogisticaEventos = dynamic(() => import('./TeamSliderLogisticaEventos'), {
+    ssr: false
+  });
 class TeamTwo extends Component {
 
     render() {
@@ -14,15 +31,51 @@ class TeamTwo extends Component {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title-wrapper text-center mb-50">
-                            <h5 className="section-subtitle mb-20">professional people</h5>
-                            <h2 className="section-title mb-35">Meet the team</h2>
+                            <h5 className="section-subtitle mb-20">Membros da AE Estig</h5>
+                            <h2 className="section-title mb-35">Direção</h2>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="container">
                 <div className="team-active2 swiper-container">
-                    <TeamSliderTwo />
+                    <TeamSliderDirecao />
+                </div>
+                <div className="section-title-wrapper text-center mb-50">
+                <h2 className="section-title mb-35">Conselho Fiscal</h2>
+                </div>
+                <div className="team-active2 swiper-container">
+                    <TeamSliderConcelhoFiscal />
+                </div>
+                <div className="section-title-wrapper text-center mb-50">
+                <h2 className="section-title mb-35">Mesa de Assembleia</h2>
+                </div>
+                <div className="team-active2 swiper-container">
+                    <TeamSliderMessaAsssembleia />
+                </div>
+                <div className="section-title-wrapper text-center mb-50">
+                <h2 className="section-title mb-35">Departamento de Comunicação e Muiltimédia</h2>
+                </div>
+                <div className="team-active2 swiper-container">
+                    <TeamSliderComunicacaoMedia />
+                </div>
+                <div className="section-title-wrapper text-center mb-50">
+                <h2 className="section-title mb-35">Departamento Desportivo</h2>
+                </div>
+                <div className="team-active2 swiper-container">
+                    <TeamSliderDesportivo />
+                </div>
+                <div className="section-title-wrapper text-center mb-50">
+                <h2 className="section-title mb-35">Departamento de Apoio ao Estudante</h2>
+                </div>
+                <div className="team-active2 swiper-container">
+                    <TeamSliderApoioEstudantes />
+                </div>
+                <div className="section-title-wrapper text-center mb-50">
+                <h2 className="section-title mb-35">Departamento de Logística e Eventos</h2>
+                </div>
+                <div className="team-active2 swiper-container">
+                    <TeamSliderLogisticaEventos />
                 </div>
             </div>
         </section>

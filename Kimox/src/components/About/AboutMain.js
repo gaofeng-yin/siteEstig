@@ -3,14 +3,6 @@ import dynamic from 'next/dynamic';
 import Breadcrumb from '../Common/Breadcrumb';
 import Mission from './MissionSection';
 import TeamTwo from './TeamSectionTwo';
-const BrandThree = dynamic(() => import('../Elements/Brand/BrandSectionThree'), {
-    ssr: false
-  })
-const Testimonial = dynamic(() => import('../Elements/Testimonials/TestimonialsSection'), {
-    ssr: false
-  })
-
-
 class AboutMain extends Component {
 
     render() {
