@@ -41,7 +41,7 @@ const Footer = () => {
                            <h4 className="widget-title mb-35">Contact</h4>
                            <ul>
                                  <li className="pb-10">86 Road Broklyn Street, 600 <br/>New York, USA</li>
-                                 <li><img src="assets/img/icon/footer-icon-1.png" className="img-fluid" alt="icon-img"/><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
+                                 <li><img src="assets/img/icon/footer-icon-1.svg" className="img-fluid" alt="icon-img"/><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
                            </ul>
                         </div>
                      </div>
