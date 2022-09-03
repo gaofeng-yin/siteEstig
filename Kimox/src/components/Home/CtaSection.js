@@ -12,11 +12,11 @@ class Cta extends Component {
                     <div className="cta-bg bg-theme">
                         <div className="cta-number">
                             <div className="cta-number-icon mr-30">
-                                <a href="https://www.instagram.com/gaofing/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                <a href="https://www.instagram.com/aeestig/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                             </div>
                             <div className="cta-number-text fix">
                                 <span className="uppercase">Segue-nos no Instagram</span>
-                                <h3><a href="https://www.instagram.com/gaofing/" target="_blank">@aeestig</a></h3>
+                                <h3><a href="https://www.instagram.com/aeestig/" target="_blank">@aeestig</a></h3>
                             </div>
                         </div>
                         <div className="cta-description">

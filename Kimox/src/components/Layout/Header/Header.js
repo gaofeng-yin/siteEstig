@@ -81,8 +81,8 @@ const Header = () => {
                         <div className="col-xl-4 d-none d-xl-block">
                            <div className="header-right text-end">
                               <div className="header-social">
-                                 <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
-                                 <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                                 <a href="https://www.facebook.com/aeestigipb" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                                 <a href="https://www.instagram.com/aeestig/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                               </div>
                            </div>
                         </div>

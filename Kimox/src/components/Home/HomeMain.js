@@ -7,9 +7,6 @@ import dynamic from 'next/dynamic';
 const HomeSlider = dynamic(() => import('../Elements/Slider/HomeSliderSection'), {
     ssr: false
   })
-const Testimonial = dynamic(() => import('../Elements/Testimonials/TestimonialsSection'), {
-    ssr: false
-  })
 const Brand = dynamic(() => import('../Elements/Brand/BrandSection'), {
     ssr: false
 })
@@ -49,10 +46,6 @@ class HomeMain extends Component {
 				<Video />
 				{/* video-end */}
 
-                {/* testimonial-start */}
-				{/* <Testimonial /> */}
-				{/* testimonial-end */}
-
                 {/* brand-start */}
 				<Brand />
 				{/* brand-end */}
@@ -64,14 +57,6 @@ class HomeMain extends Component {
                 {/* blog-start */}
 				<BlogSlider />
 				{/* blog-end */}
-
-                {/* quality-start */}
-				{/*  <Quality /> */}
-				{/* quality-end */}
-
-                {/* map-start */}
-				{/*  <Map /> */}
-				{/* map-end */}
 
         	</main>
         );

@@ -99,8 +99,8 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                             <li><img src="assets/img/icon/footer-icon-1.png" className="img-fluid" alt="icon-img"/><a href="mailto:info@sycho24.com">needhelp@company.com</a></li>
                         </ul>
                         <div className="sidebar__menu--social">
-                            <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
-                            <a href="#" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
+                            <a href="https://www.facebook.com/aeestigipb" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
+                            <a href="https://www.instagram.com/aeestig/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                         </div>
                     </div>
                 </div>

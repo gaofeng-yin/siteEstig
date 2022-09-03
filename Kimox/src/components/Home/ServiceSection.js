@@ -20,7 +20,7 @@ class Service extends Component {
                                         <img src="assets/img/service/service-author.png" className="img-fluid" alt="author-img"/>
                                     </div>
                                     <div className="kservice-author-sign">
-                                        <span>Jessica Brown</span>
+                                        <span>Ae Estig</span>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ class Service extends Component {
                                             <i><FontAwesomeIcon icon={['fas', 'fa-building']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Alojamentos</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Habitação</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>
