@@ -38,7 +38,7 @@ const Footer = () => {
                      </div>
                      <div className="col-lg-3 col-sm-6">
                         <div className="widget widget-contact mb-30">
-                           <h4 className="widget-title mb-35">Contact</h4>
+                           <h4 className="widget-title mb-35">Contacto</h4>
                            <ul>
                                  <li className="pb-10">86 Road Broklyn Street, 600 <br/>New York, USA</li>
                                  <li><img src="assets/img/icon/footer-icon-1.svg" className="img-fluid" alt="icon-img"/><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>

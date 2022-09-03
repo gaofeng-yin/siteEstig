@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
-import ProjectMain from '../components/Project/ProjectMain';
+import PhotoMain from '../components/Photo/PhotoMain';
 
 class ProjectPage extends React.Component {
 
@@ -15,7 +15,7 @@ class ProjectPage extends React.Component {
         return (
             <React.Fragment>
             <Header />
-            <ProjectMain />
+            <PhotoMain />
             <Footer />
             </React.Fragment>
         );

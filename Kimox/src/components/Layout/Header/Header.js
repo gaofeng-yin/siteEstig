@@ -52,24 +52,12 @@ const Header = () => {
                            <div className="main-menu d-xl-block d-none">
                               <nav id="mobile-menu">
                                  <ul>
-                                    <li className="menu-item-has-children"><Link href="/"><a>Home</a></Link>
-                                    </li>
+                                    <li><Link href="/"><a>Home</a></Link></li>
                                     <li><Link href="/about"><a>Sobre Nós</a></Link></li>
-                                    <li className="menu-item-has-children"><Link href="/blog"><a>Notícias</a></Link>
-                                    </li>
-                                    <li className="menu-item-has-children"><Link href="/service"><a>Sócio</a></Link>
-                                       <ul className="sub-menu">
-                                          <li><Link href="/service"><a>Services</a></Link></li>
-                                          <li><Link href="/service-details"><a>Services Details</a></Link></li>
-                                       </ul>
-                                    </li>
+                                    <li><Link href="/blog"><a>Notícias</a></Link></li>
+                                    <li><Link href="/service"><a>Sócio</a></Link></li>
                                     <li><Link href="/habitacao"><a>Habitação</a></Link></li>
-                                    <li className="menu-item-has-children"><Link href="/project"><a>Foto</a></Link>
-                                       <ul className="sub-menu">
-                                          <li><Link href="/project"><a>Projects</a></Link></li>
-                                          <li><Link href="/project-details"><a>Projects Details</a></Link></li>
-                                       </ul>
-                                    </li>
+                                    <li><Link href="/photo"><a>Foto</a></Link></li>
                                     <li><Link href="/contact"><a>Contacto</a></Link></li>
                                  </ul>
                               </nav>
