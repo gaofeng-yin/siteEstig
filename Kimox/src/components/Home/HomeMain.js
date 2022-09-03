@@ -10,7 +10,7 @@ const HomeSlider = dynamic(() => import('../Elements/Slider/HomeSliderSection'),
 const Sponsor = dynamic(() => import('../Elements/Brand/SponsorSection'), {
     ssr: false
 })
-import Trust from './TrustSection';
+import Socio from './SocioSection';
 import Photo from './FotoEscola';
 const BlogSlider = dynamic(() => import('../Elements/Slider/BlogSliderSection'), {
     ssr: false
@@ -36,7 +36,7 @@ class HomeMain extends Component {
 
 				<Sponsor />
 
-				<Trust />
+				<Socio />
 
 				<BlogSlider />
 
