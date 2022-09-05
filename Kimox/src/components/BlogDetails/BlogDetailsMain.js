@@ -63,7 +63,7 @@ class BlogDetailsMain extends Component {
                                     <div className="kblog">
                                         <div className="kblog-img">
                                             <img src={article.image} alt={article.title} />
-                                            <span>22 May</span>
+                                            <span>{article.date}</span>
                                         </div>
                                         <div className="kblog-text kblog-text2 kblog-text22">
                                             <p className="mb-20">{article.text}</p>
