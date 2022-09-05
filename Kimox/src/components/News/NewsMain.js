@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import ArticleLayout from '../Common/ArticleLayout';
 import posts from '../../sample-data/blog-posts/posts.json';
 import Breadcrumb from '../Common/Breadcrumb';
-import PaginationSection from '../Common/Pagination';
 
-
-class BlogMain extends Component {
+class NewsMain extends Component {
 
     render() {
 
@@ -33,4 +31,4 @@ class BlogMain extends Component {
     }
 }
 
-export default BlogMain;
+export default NewsMain;

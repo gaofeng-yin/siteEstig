@@ -45,7 +45,7 @@ class Service extends Component {
                                             <i><FontAwesomeIcon icon={['fas', 'fa-building']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/habitacao"><a>Habitação</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/housing"><a>Habitação</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ class Service extends Component {
                                             <i><FontAwesomeIcon icon={['fas', 'fa-newspaper']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Notícias</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/news"><a>Notícias</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
-import BlogMain from '../components/Blog/BlogMain';
+import NewsMain from '../components/News/NewsMain';
 
 class BlogPage extends React.Component {
 
@@ -15,7 +15,7 @@ class BlogPage extends React.Component {
         return (
             <React.Fragment>
             <Header />
-            <BlogMain />
+            <NewsMain />
             <Footer />
             </React.Fragment>
         );
