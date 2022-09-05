@@ -3,9 +3,9 @@ import Head from 'next/head';
 import { connect } from 'react-redux';
 import store from '../../redux/store';
 import ReactGA from 'react-ga';
-import articleDetails from '../../sample-data/blog-posts/single-post.json';
+import articleDetails from '../../data/news-posts/single-post.json';
 import Breadcrumb from '../Common/Breadcrumb';
-import BlogDetailsInfo from './BlogDetailsInfo';
+import NewsSignature from './NewsSignature';
 
 class BlogDetailsMain extends Component {
 
@@ -50,13 +50,10 @@ class BlogDetailsMain extends Component {
                 </Head>
                 ))}
 
-                {/* breadcrumb-area-start */}
                 {newsDetails && newsDetails.map((article, num) => (
                     <Breadcrumb key={num} pageTitle={article.title} />
                 ))}
-                {/* breadcrumb-area-start */}
 
-                {/* blog-area start */}
                 <section className="blog-details-area  pt-120 pb-60">
                     <div className="container">
                         <div className="row">
@@ -66,7 +63,7 @@ class BlogDetailsMain extends Component {
                                     <div className="kblog">
                                         <div className="kblog-img">
                                             <img src={article.image} alt={article.title} />
-                                            <span>21 May</span>
+                                            <span>22 May</span>
                                         </div>
                                         <div className="kblog-text kblog-text2 kblog-text22">
                                             <p className="mb-20">{article.text}</p>
@@ -74,33 +71,15 @@ class BlogDetailsMain extends Component {
                                         </div>
                                     </div>
 
-                                    <BlogDetailsInfo />
-
-                                    {/* <BlogAuthor /> */}
-
-                                    {/* <BlogComment /> */}
-                                    
-                                    {/* <BlogCommentForm /> */}
+                                    <NewsSignature />
                                     
                                 </div>
                                 ))}
 
                             </div>
-                            {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 mt-md-40 mt-xs-40">
-                                <div className="sidebar-wrap">
-                                    <BlogSidebarSearch />
-
-                                    <BlogSidebarPost />
-
-                                    <BlogSidebarCat />
-
-                                    <BlogSidebarTags />
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </section>
-                {/* blog-area end */}
             </main>
 
         );

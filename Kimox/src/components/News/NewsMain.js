@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ArticleLayout from '../Common/ArticleLayout';
-import posts from '../../sample-data/blog-posts/posts.json';
+import posts from '../../data/news-posts/posts.json';
 import Breadcrumb from '../Common/Breadcrumb';
 
 class NewsMain extends Component {
@@ -9,10 +9,7 @@ class NewsMain extends Component {
 
         return (
             <main>
-
-                {/* breadcrumb-start */}
 				<Breadcrumb pageTitle="Notícias" />
-				{/* breadcrumb-end */}
 
                 <section className="blog-2 pt-120 pb-115">
                     <div className="container">
@@ -23,7 +20,6 @@ class NewsMain extends Component {
                             </div>
                             ))}
                         </div>
-                       {/* <PaginationSection /> */}
                     </div>
                 </section>
         	</main>
