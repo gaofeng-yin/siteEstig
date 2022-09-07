@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogDetailsMain from '../components/BlogDetails/BlogDetailsMain';
+import NewsDetailsMain from '../components/NewsDetails/NewsDetailsMain';
 import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
 
@@ -16,9 +16,7 @@ class BlogDetails extends React.Component {
             <React.Fragment>
                 <Header />
                 <main>
-                    {/* Blog Main */}
-                    <BlogDetailsMain />
-                    {/* Blog Main End */}
+                    <NewsDetailsMain />
                 </main>
                 <Footer />
             </React.Fragment>

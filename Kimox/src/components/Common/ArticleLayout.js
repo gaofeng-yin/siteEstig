@@ -7,7 +7,7 @@ const ArticleLayout = ({ postsDetails }) => {
   return (
         <div className="kblog">
             <div className="kblog-img">
-                <Link href={postsDetails.url}>
+                <Link href={postsDetails.id}>
                     <img src={'/'+ postsDetails.image} alt="blog image" className="img-fluid" />
                 </Link>
                 <span>{postsDetails.date}</span>

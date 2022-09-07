@@ -71,7 +71,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-1.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>20 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -88,7 +88,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-2.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>21 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -105,7 +105,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-3.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>22 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -122,7 +122,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-4.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>24 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -139,7 +139,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-5.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>25 May</span>
                                                 </div>
                                                 <div className="kblog-text">

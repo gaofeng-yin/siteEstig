@@ -55,11 +55,9 @@ class BlogDetailsMain extends Component {
                     <meta property="og:image" content={article.image} />
                 </Head>
                 ))}
-
                 {newsDetails && newsDetails.map((article, num) => (
                     <Breadcrumb key={num} pageTitle={article[this.getPath()].title} />
                 ))}
-
                 <section className="blog-details-area  pt-120 pb-60">
                     <div className="container">
                         <div className="row">
@@ -76,18 +74,14 @@ class BlogDetailsMain extends Component {
                                             <p>{article[this.getPath()].textTwo}</p>
                                         </div>
                                     </div>
-
-                                    <NewsSignature />
-                                    
+                                    <NewsSignature />                     
                                 </div>
                                 ))}
-
                             </div>
                         </div>
                     </div>
                 </section>
             </main>
-
         );
     }
 }
