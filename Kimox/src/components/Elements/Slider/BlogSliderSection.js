@@ -11,7 +11,7 @@ class BlogSlider extends Component {
     render() {
 
         return (
-            <section className="blog-area pt-120 fix" style={{ backgroundImage:`url(${'assets/img/blog/blog-bg-1.jpg'})`}}>
+            <section className="blog-area pt-120 fix" style={{ backgroundImage:`url(${'assets/img/news/blog-bg-1.jpg'})`}}>
                 <div className="container pb-120">
                     <div className="blog-border">
                         <div className='row'>
@@ -71,7 +71,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/news/thumbnail/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>20 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -88,7 +88,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/news/thumbnail/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>21 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -105,7 +105,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/news/thumbnail/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>22 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -122,7 +122,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/news/thumbnail/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>24 May</span>
                                                 </div>
                                                 <div className="kblog-text">
@@ -139,14 +139,10 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/news/thumbnail/blog-img-10.jpg" className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>25 May</span>
                                                 </div>
                                                 <div className="kblog-text">
-                                                   {/*  <div className="kblog-meta">
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'user-circle']} /></i> by Admin</a></Link>
-                                                        <Link href="/blog-details"><a><i><FontAwesomeIcon icon={['fas', 'comments']} /></i> 2 Comments</a></Link>
-                                                    </div> */}
                                                     <h3 className="kblog-text-title mb-20">
                                                         <Link href="/blog-details"><a>We work with change oriented executives</a></Link>
                                                     </h3>
