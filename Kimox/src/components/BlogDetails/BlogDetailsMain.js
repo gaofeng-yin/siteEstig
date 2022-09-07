@@ -29,8 +29,6 @@ class BlogDetailsMain extends Component {
         this.getDetails();
         ReactGA.initialize('UA-168056874-1', { alwaysSendToDefaultTracker: true });
         ReactGA.pageview(window.location.pathname + window.location.search);
-        console.log(window.location.pathname.charAt(1));
-        console.log(window.location.pathname);
     }
 
     getPath(){
