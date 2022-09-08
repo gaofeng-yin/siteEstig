@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
