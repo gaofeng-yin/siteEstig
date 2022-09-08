@@ -21,7 +21,7 @@ const TeamSliderApoioEstudantes = dynamic(() => import('./TeamSliderApoioEstudan
 const TeamSliderLogisticaEventos = dynamic(() => import('./TeamSliderLogisticaEventos'), {
     ssr: false
   });
-class TeamTwo extends Component {
+class TeamBoardSection extends Component {
 
     render() {
 
@@ -83,4 +83,4 @@ class TeamTwo extends Component {
     }
 }
 
-export default TeamTwo;
+export default TeamBoardSection;

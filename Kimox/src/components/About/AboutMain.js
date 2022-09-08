@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import dynamic from 'next/dynamic';
 import Breadcrumb from '../Common/Breadcrumb';
 import Mission from './MissionSection';
-import TeamTwo from './TeamSectionTwo';
+import TeamBoard from './TeamBoardSection';
 class AboutMain extends Component {
 
     render() {
@@ -13,7 +13,7 @@ class AboutMain extends Component {
 
                 <Mission />
 
-				<TeamTwo />
+				<TeamBoard />
         	</main>
         );
     }
