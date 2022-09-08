@@ -9,17 +9,11 @@ class AboutMain extends Component {
 
         return (
             <main>
-                {/* breadcrumb-start */}
 				<Breadcrumb pageTitle="Sobre Nós" />
-				{/* breadcrumb-end */}
 
-                {/* mission-start */}
                 <Mission />
-				{/* mission-end */}
 
-                {/* team-start */}
 				<TeamTwo />
-				{/* team-end */}
         	</main>
         );
     }
