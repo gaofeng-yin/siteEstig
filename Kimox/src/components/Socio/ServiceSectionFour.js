@@ -18,7 +18,7 @@ class ServiceFour extends Component {
                     </div>
                     <div className="col-xxl-7 col-xl-6 col-lg-6">
                         <div className="contact-form">
-                            <form action="https://mailthis.to/aeee" id="contact-form" method="POST" encType="multipart/form-data">
+                            <form action="https://mailthis.to/aeestig" id="contact-form" method="POST" encType="multipart/form-data">
                                 <div className="row">
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
                                         <input name="Nome" type="text" placeholder="Nome Completo" required />
