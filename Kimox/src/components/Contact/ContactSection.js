@@ -17,11 +17,10 @@ class Contact extends Component {
                         <div className="contact-info mr-50 mr-xs-0  mr-md-0">
                             <div className="single-contact-info d-flex align-items-center">
                                 <div className="contact-info-icon">
-                                    <a href="#"><i><FontAwesomeIcon icon={['fas', 'envelope']} /></i></a>
+                                    <a href="https://www.facebook.com/aeestigipb" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
                                 </div>
-                                <div className="contact-info-text mt-10">
-                                    <span>send email</span>
-                                    <h5><a href="mailto:needhelp@company.com">needhelp@company.com</a> </h5>
+                                <div className="contact-info-icon">
+                                    <a href="https://www.instagram.com/aeestig/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                                 </div>
                             </div>
                         </div>
