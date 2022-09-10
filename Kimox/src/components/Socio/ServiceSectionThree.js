@@ -12,8 +12,8 @@ class ServiceThree extends Component {
                         <div className="col-xl-3 col-lg-3 col-sm-6">
                             <div className="kservice-2 mb-30 wow fadeInUp" data-wow-duration=".3s">
                                 <div className="kservice-text-2">
-                                    <span>Services</span>
-                                    <h4 className="kservice-title-2"><Link href="/service-details"><a>Website <br/>Development</a></Link></h4>
+                                    <span>Acesso Exclusivo</span>
+                                    <h4 className="kservice-title-2">Website Development</h4>
                                     <i><img src="assets/img/icon/service-icon-3.png" className="img-fluid" alt="cta-icon"/></i>
                                 </div>
                                 <div className="kservice-img-2">
@@ -24,8 +24,8 @@ class ServiceThree extends Component {
                         <div className="col-xl-3 col-lg-3 col-sm-6">
                             <div className="kservice-2 mb-30 wow fadeInUp" data-wow-duration=".6s">
                                 <div className="kservice-text-2">
-                                    <span>Services</span>
-                                    <h4 className="kservice-title-2"><Link href="/service-details"><a>Graphic <br/>designing</a></Link></h4>
+                                    <span>Promoções</span>
+                                    <h4 className="kservice-title-2">Graphic designing</h4>
                                     <i><img src="assets/img/icon/service-icon-4.png" className="img-fluid" alt="cta-icon"/></i>
                                 </div>
                                 <div className="kservice-img-2">
@@ -36,8 +36,8 @@ class ServiceThree extends Component {
                         <div className="col-xl-3 col-lg-3 col-sm-6">
                             <div className="kservice-2 mb-30 wow fadeInUp" data-wow-duration=".9s">
                                 <div className="kservice-text-2">
-                                    <span>Services</span>
-                                    <h4 className="kservice-title-2"><Link href="/service-details"><a>SEO & Content <br/>writting</a></Link></h4>
+                                    <span>qualquer merda</span>
+                                    <h4 className="kservice-title-2">SEO Content writting</h4>
                                     <i><img src="assets/img/icon/service-icon-5.png" className="img-fluid" alt="cta-icon"/></i>
                                 </div>
                                 <div className="kservice-img-2">
@@ -49,7 +49,7 @@ class ServiceThree extends Component {
                             <div className="kservice-2 mb-30 wow fadeInUp" data-wow-duration="1s">
                                 <div className="kservice-text-2">
                                     <span>Services</span>
-                                    <h4 className="kservice-title-2"><Link href="/service-details"><a>digital <br/>marketing</a></Link></h4>
+                                    <h4 className="kservice-title-2">digital marketing</h4>
                                     <i><img src="assets/img/icon/about-icon-2.png" className="img-fluid" alt="cta-icon"/></i>
                                 </div>
                                 <div className="kservice-img-2">

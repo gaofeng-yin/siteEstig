@@ -9,13 +9,9 @@ class ContactMain extends Component {
 
         return (
             <main>
-                {/* breadcrumb-start */}
 				<Breadcrumb pageTitle="Contacto" />
-				{/* breadcrumb-end */}
 
-                {/* contact-start */}
                 <Contact />
-				{/* contact-end */}
         	</main>
         );
     }

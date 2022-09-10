@@ -28,22 +28,22 @@ class Contact extends Component {
                     </div>
                     <div className="col-xxl-7 col-xl-6 col-lg-6">
                         <div className="contact-form">
-                            <form action="mail.php" id="contact-form" method="POST">
+                            <form action="https://mailthis.to/aeestig" id="contact-form" method="POST" encType="multipart/form-data">
                                 <div className="row">
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="name" type="text" placeholder="Nome" required />
+                                        <input name="Nome" type="text" placeholder="Nome" required />
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="email" type="email" placeholder="Email" required/>
+                                        <input name="Email" type="email" placeholder="Email" required/>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="phone" type="number" placeholder="Telemóvel"/>
+                                        <input name="Telemóvel" type="number" placeholder="Telemóvel"/>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="subject" type="text" placeholder="Assunto" required/>
+                                        <input name="Assunto" type="text" placeholder="Assunto" required/>
                                     </div>
                                     <div className="col-xxl-12 col-xl-12 col-lg-12 mb-20">
-                                        <textarea placeholder="Escreve a tua mensagem" name="mensagem" required></textarea>
+                                        <textarea placeholder="Escreve a tua mensagem" name="Mensagem" required></textarea>
                                     </div>
                                     <div className="col-xxl-12 col-xl-12 mb-20">
                                         <button type="submit" className="theme-btn border-btn">Enviar</button>
