@@ -28,7 +28,7 @@ class About extends Component {
                             <div className="kabout mb-50" data-aos="zoom-out-down" data-swiper-autoplay="10000">
                                 <div className="section-title-wrapper mb-45">
                                     <h5 className="section-subtitle mb-20">get to know us</h5>
-                                    <h2 className="section-title mb-35">Welcome to digital <br/>agency</h2>
+                                    <h2 className="section-title mb-35">Bem-Vindo <br/>agency</h2>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown was popularised.</p>
                                 </div>
                                 <div className="row">
