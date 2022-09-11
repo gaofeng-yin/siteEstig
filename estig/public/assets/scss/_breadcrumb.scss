@@ -1,0 +1,48 @@
+@use "common" as *;
+@use "variables" as *;
+@use "mixins" as *;
+
+/* 17. Breadcrumb */
+.breadcrumb-spacing{
+    padding-top: 260px;
+    padding-bottom: 155px;
+    background-size: cover;
+     @include mq(xs){
+        padding-top: 240px;  
+    }
+}
+.page-title {
+	color: $white-color;
+	font-size: 50px;
+	font-weight: 700;
+    font-family: $body-fonts;
+	line-height: 1;
+    text-transform: uppercase;
+}
+.breadcrumb-menu {
+	& li {
+        display: inline-block;
+        padding: 0 15px;
+        position: relative;
+        &:not(:last-child)::after {
+            content: "";
+            display: inline-block;
+            box-sizing: border-box;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid $white-color;
+            border-right: 2px solid $white-color;
+            transform: rotate(-45deg);
+            right: -3px;
+            top: 6px;
+        }
+        & span {
+            color: $white-color;
+            @include transition(0.3s);
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+}

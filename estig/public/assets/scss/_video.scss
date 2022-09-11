@@ -1,0 +1,87 @@
+@use "common" as *;
+@use "variables" as *;
+@use "mixins" as *;
+
+
+/* 08. Video */
+.video-area {
+    margin-top: -285px;
+}
+.kvideo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    &:before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        z-index: -1;
+        left: 0px;
+        top: 0px;
+    }
+    &-sign {
+        margin-top: 105px;
+        @include mq(xs){
+            margin-top: 0px; 
+        }
+        & a {
+            height: 70px;
+            width: 70px;
+            text-align: center;
+            line-height: 70px;
+            vertical-align: middle;
+            color: $white-color;
+            background: $theme-color;
+            display: inline-block;
+            font-size: 16px;
+            position: relative;
+            z-index: 2;
+            &:hover {
+                color: $theme-color;
+                background: $white-color;
+                border-radius: 10px;
+            }
+        }
+        & h2 {
+            font-size: 80px;
+            font-family: 'Reey';
+            color: $white-color;
+            font-weight: 400;
+            opacity: 0.3;
+            @include mq(xs){
+                font-size: 36px; 
+            }
+        }
+    }
+    &-number {
+        position: absolute;
+        right: 30px;
+        bottom: -30px;
+        background: $theme-color;
+        padding: 35px 60px 25px 60px;
+        @include mq(xs){
+            padding: 25px 30px 15px 30px;
+        }
+        & span {
+            color: $white-color;
+            display: block;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        & a {
+            font-size: 30px;
+            font-weight: 400;
+            color: $white-color;
+            margin-bottom: 0px;
+        }
+    }
+}
