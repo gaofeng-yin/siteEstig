@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
-import PhotoTab from '../Elements/Tab/PhotoTab';
+import PhotoSection from './PhotoSection';
 
 
 class PhotoMain extends Component {
@@ -11,7 +11,7 @@ class PhotoMain extends Component {
             <main>
 				<Breadcrumb pageTitle="Fotos" />
 
-                <PhotoTab />
+                <PhotoSection />
         	</main>
         );
     }

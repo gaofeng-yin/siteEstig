@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Video from '../Elements/Video/VideoSection';
+import Video from './VideoSection';
 import About from './AboutSection';
 import Cta from './CtaSection';
 import Service from './ServiceSection';
