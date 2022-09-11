@@ -3,10 +3,7 @@ import Breadcrumb from '../Common/Breadcrumb';
 import Quality from '../Home/QualitySection';
 import ServiceFour from './ServiceSectionFour';
 import WhyWeThree from './WhyWeThree';
-import dynamic from 'next/dynamic';
-const BrandFour = dynamic(() => import('../Elements/Brand/BrandSectionFour'), {
-    ssr: false
-  })
+import BrandSection from './BrandSection';
 
 
 class ServiceMain extends Component {
@@ -21,7 +18,7 @@ class ServiceMain extends Component {
 
 				<ServiceFour />
 
-                <BrandFour />
+                <BrandSection />
 
                 <Quality />
         	</main>
