@@ -72,6 +72,17 @@
         }
     }
 }
+
+.dropdown{
+    width: 100%;
+    padding: 2%;
+    color: $body-color;
+    border: none;
+    background: $grey-color;
+    font-size: 14px;
+    border: 1px solid transparent;
+}
+
 #contact-map {
     & iframe {
         height: 555px;
