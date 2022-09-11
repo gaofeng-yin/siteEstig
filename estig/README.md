@@ -1,10 +1,10 @@
-#Prerequisite:
+# Prerequisite:
 	Node.js
 	Yarn
 
-#Compile project:
+# Compile project:
 	yarn install
 
-#Run project:
+# Run project:
 	yarn dev
 
