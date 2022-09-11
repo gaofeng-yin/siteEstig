@@ -50,37 +50,37 @@ class ProjectSlider extends Component {
                 >
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/project-img-1.jpg" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/foto4edit.png" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/project-img-2.jpg" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/foto13edit.png" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/project-img-3.jpg" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/foto18edit.png" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/project-img-4.jpg" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/foto3edit.png" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/project-img-1.jpg" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/foto15edit.png" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/project-img-2.jpg" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/foto40edit.jpg" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 

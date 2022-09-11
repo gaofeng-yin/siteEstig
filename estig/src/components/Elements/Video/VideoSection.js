@@ -65,7 +65,7 @@ class Video extends Component {
                                     <div className="kvideo" style={{ backgroundImage:`url(${'assets/img/bg/video-bg.jpg'})`}}>
                                         <div className="kvideo-sign text-center">
                                             <a href="#!" className="play-btn" onClick={this.onOpenModal}> <i><FontAwesomeIcon icon={['fas', 'play']} /></i> </a>
-                                            <h2>Veja o Video</h2>
+                                            <h2>Bem-Vindo ao IPB</h2>
                                         </div>
                                     </div>
                                 </div>

@@ -45,13 +45,13 @@ class HomeSlider extends Component {
                         >
                         <SwiperSlide>
                             <div className="single-slider slider-height swiper-slide" data-swiper-autoplay="10000">
-                                <div className="slide-bg" style={{ backgroundImage:`url(${'assets/img/slider/slider-1.jpg'})`}}></div>
+                                <div className="slide-bg" style={{ backgroundImage:`url(${'assets/img/slider/foto8edit.png'})`}}></div>
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="kslider z-index">
-                                                <h5 className="kslider--subtitle mb-25" data-animation="fadeInUp" data-delay="0.3s">Welcome to digital agency</h5>
-                                                <h2 className="kslider--title mb-40" data-animation="fadeInUp" data-delay="0.5s">Web Design <br/>Agency</h2>
+                                                <h5 className="kslider--subtitle mb-25" data-animation="fadeInUp" data-delay="0.3s">Associação de Estudantes Escola Superior de Tecnologia e Gestão</h5>
+                                                <h2 className="kslider--title mb-40" data-animation="fadeInUp" data-delay="0.5s">A Escola com mais coração...<br/></h2>
                                                 <div className="kslider--btn" data-animation="fadeInUp" data-delay="0.7s">
                                                     <Link href="/service"><a className="theme-btn">Discover more</a></Link>
                                                 </div>
@@ -67,13 +67,13 @@ class HomeSlider extends Component {
 
                         <SwiperSlide>
                             <div className="single-slider slider-height swiper-slide" data-swiper-autoplay="10000">
-                                <div className="slide-bg" style={{ backgroundImage:`url(${'assets/img/slider/slider-2.jpg'})`}}></div>
+                                <div className="slide-bg" style={{ backgroundImage:`url(${'assets/img/slider/foto19edit.png'})`}}></div>
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="kslider z-index">
-                                                <h5 className="kslider--subtitle mb-25" data-animation="fadeInUp" data-delay="0.3s">Welcome to digital agency</h5>
-                                                <h2 className="kslider--title mb-40" data-animation="fadeInUp" data-delay="0.5s">Web Design <br/>Agency</h2>
+                                                <h5 className="kslider--subtitle mb-25" data-animation="fadeInUp" data-delay="0.3s">Associação de Estudantes Escola Superior de Tecnologia e Gestão</h5>
+                                                <h2 className="kslider--title mb-40" data-animation="fadeInUp" data-delay="0.5s">A Escola com mais coração...<br/></h2>
                                                 <div className="kslider--btn" data-animation="fadeInUp" data-delay="0.7s">
                                                     <Link href="/service"><a className="theme-btn">Discover more</a></Link>
                                                 </div>
@@ -86,13 +86,13 @@ class HomeSlider extends Component {
 
                         <SwiperSlide>
                             <div className="single-slider slider-height swiper-slide" data-swiper-autoplay="10000">
-                                <div className="slide-bg" style={{ backgroundImage:`url(${'assets/img/slider/slider-3.jpg'})`}}></div>
+                                <div className="slide-bg" style={{ backgroundImage:`url(${'assets/img/slider/foto21edit.png'})`}}></div>
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="kslider z-index">
-                                                <h5 className="kslider--subtitle mb-25" data-animation="fadeInUp" data-delay="0.3s">Welcome to digital agency</h5>
-                                                <h2 className="kslider--title mb-40" data-animation="fadeInUp" data-delay="0.5s">Web Design <br/>Agency</h2>
+                                                <h5 className="kslider--subtitle mb-25" data-animation="fadeInUp" data-delay="0.3s">Associação de Estudantes Escola Superior de Tecnologia e Gestão</h5>
+                                                <h2 className="kslider--title mb-40" data-animation="fadeInUp" data-delay="0.5s">A Escola com mais coração...<br/></h2>
                                                 <div className="kslider--btn" data-animation="fadeInUp" data-delay="0.7s">
                                                     <Link href="/service"><a className="theme-btn">Discover more</a></Link>
                                                 </div>
