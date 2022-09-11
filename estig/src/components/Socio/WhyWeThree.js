@@ -13,7 +13,7 @@ class WhyWeThree extends Component {
                     <div className="row justify-content-between">
                         <div className="col-xl-6 col-lg-6 col-md-12">
                             <div className="provide-thumb">
-                                <img src="assets/img/about/about-img-7.jpg" alt=""/>
+                                <img src="assets/img/about/socio.png" alt=""/>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-12">

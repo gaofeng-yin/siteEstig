@@ -20,8 +20,7 @@ class Cta extends Component {
                             </div>
                         </div>
                         <div className="cta-description">
-                            <p>Lorem ipsum dolor sit amet nsectetur
-                                cing elituspe ndisse suscipit.</p>
+                            <p>Se tiveres alguma dúvida entra em contacto connosco!</p>
                         </div>
                         <div className="cta-btn text-lg-end text-start">
                             <Link href="/contact"><a className="theme-btn black-btn">Fala Connosco</a></Link>

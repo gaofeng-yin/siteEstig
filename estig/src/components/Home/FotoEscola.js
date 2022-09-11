@@ -18,7 +18,7 @@ class Project extends Component {
                     <div className="row">
                         <div className="col-md-8">
                             <div className="section-title-wrapper mb-45">
-                                <h5 className="section-subtitle mb-20">Conheça a tua escola</h5>
+                                <h5 className="section-subtitle mb-20">A escola com mais coração..</h5>
                                 <h2 className="section-title">Estig</h2>
                             </div>
                         </div>
