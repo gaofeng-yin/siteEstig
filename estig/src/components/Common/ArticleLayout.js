@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ArticleLayout = ({ postsDetails }) => {
 
@@ -17,7 +16,7 @@ const ArticleLayout = ({ postsDetails }) => {
                     <Link href={postsDetails.id}><a>{postsDetails.title}</a></Link>
                 </h3>
                 <div className="kblog-text-link">
-                    <Link href={postsDetails.id}><a>{postsDetails.button}<i><FontAwesomeIcon icon={['fas', 'chevron-right']} /></i></a></Link>
+                    <Link href={postsDetails.id}><a>{postsDetails.button}</a></Link>
                 </div>
             </div>
         </div>

@@ -79,7 +79,7 @@ class BlogSlider extends Component {
                                                         <Link href="/blog-details"><a>Our Strategy Create Business Growth</a></Link>
                                                     </h3>
                                                     <div className="kblog-text-link">
-                                                        <Link href="/blog-details"><a>Read more <i><FontAwesomeIcon icon={['fas', 'chevron-right']} /></i></a></Link>
+                                                        <Link href="/blog-details"><a>Read more</a></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -96,7 +96,7 @@ class BlogSlider extends Component {
                                                         <Link href="/blog-details"><a>We work with change oriented executives</a></Link>
                                                     </h3>
                                                     <div className="kblog-text-link">
-                                                        <Link href="/blog-details"><a>Read more <i><FontAwesomeIcon icon={['fas', 'chevron-right']} /></i></a></Link>
+                                                        <Link href="/blog-details"><a>Read more</a></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -113,7 +113,7 @@ class BlogSlider extends Component {
                                                         <Link href="/blog-details"><a>From banking and insurance to wealth</a></Link>
                                                     </h3>
                                                     <div className="kblog-text-link">
-                                                        <Link href="/blog-details"><a>Read more <i><FontAwesomeIcon icon={['fas', 'chevron-right']} /></i></a></Link>
+                                                        <Link href="/blog-details"><a>Read more</a></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -130,7 +130,7 @@ class BlogSlider extends Component {
                                                         <Link href="/blog-details"><a>Our Strategy Create Business Growth</a></Link>
                                                     </h3>
                                                     <div className="kblog-text-link">
-                                                        <Link href="/blog-details"><a>Read more <i><FontAwesomeIcon icon={['fas', 'chevron-right']} /></i></a></Link>
+                                                        <Link href="/blog-details"><a>Read more</a></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -147,7 +147,7 @@ class BlogSlider extends Component {
                                                         <Link href="/blog-details"><a>We work with change oriented executives</a></Link>
                                                     </h3>
                                                     <div className="kblog-text-link">
-                                                        <Link href="/blog-details"><a>Read more <i><FontAwesomeIcon icon={['fas', 'chevron-right']} /></i></a></Link>
+                                                        <Link href="/blog-details"><a>Read more</a></Link>
                                                     </div>
                                                 </div>
                                             </div>
