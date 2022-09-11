@@ -69,7 +69,7 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                     <li><Link href="/about"><a>About</a></Link></li>
                     <li><Link href="/news"><a>Notícias</a></Link></li>
                     <li><Link href="/socio"><a>Sócio</a></Link></li>
-                    <li><Link href="/housing"><a>Habitação</a></Link></li>
+                    <li><Link href="/document"><a>Documento</a></Link></li>
                     <li><Link href="/photo"><a>Foto</a></Link></li>
                     <li><Link href="/contact"><a>Contacto</a></Link></li>
                 </ul>
