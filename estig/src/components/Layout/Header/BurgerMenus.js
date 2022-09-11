@@ -63,10 +63,7 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
             <div className="side-info-content">
                 <div className="mm-menu">
                   <ul>
-                    <li>
-                      <a onClick={() => { openMobileMenu('home'); }}>Home</a>
-                    </li>
-                    <li><Link href="/about"><a>About</a></Link></li>
+                    <li><Link href="/about"><a>Sobre Nós</a></Link></li>
                     <li><Link href="/news"><a>Notícias</a></Link></li>
                     <li><Link href="/socio"><a>Sócio</a></Link></li>
                     <li><Link href="/document"><a>Documento</a></Link></li>
