@@ -1,8 +1,0 @@
-.next
-node_modules
-.idea
-yarn.lock
-.DS_Store
-package-lock.json
-yarn-error.log
-.DS_Store
