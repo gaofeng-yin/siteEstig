@@ -7,7 +7,7 @@ import dynamic from 'next/dynamic';
 const HomeSlider = dynamic(() => import('../Elements/Slider/HomeSliderSection'), {
     ssr: false
   })
-const Sponsor = dynamic(() => import('../Elements/Brand/SponsorSection'), {
+const Sponsor = dynamic(() => import('./SponsorSection'), {
     ssr: false
 })
 import Socio from './SocioSection';

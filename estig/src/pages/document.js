@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
-import HousingMain from '../components/Housing/HousingMain';
+import DocumentMain from '../components/Documents/DocumentMain';
 
 class HousingPage extends React.Component {
 
@@ -15,7 +15,7 @@ class HousingPage extends React.Component {
         return (
             <React.Fragment>
             <Header />
-            <HousingMain />
+            <DocumentMain />
             <Footer />
             </React.Fragment>
         );
