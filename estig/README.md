@@ -1,12 +1,10 @@
-# Nextjs-React-Redux-Example
+Prerequisite:
+	Node.js
+	Yarn
 
-A Simple Counter App made with next.js, react and redux. 
+Compile project:
+	yarn install
 
-To run the app:
+Run project:
+	yarn dev
 
-```
-npm install
-npm run dev
-```
-
-[Detailed Explanation](https://dev.to/waqasabbasi/server-side-rendered-app-with-next-js-react-and-redux-38gf)
