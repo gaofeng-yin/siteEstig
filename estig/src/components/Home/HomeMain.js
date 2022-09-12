@@ -12,7 +12,7 @@ const Sponsor = dynamic(() => import('./SponsorSection'), {
 })
 import Socio from './SocioSection';
 import Photo from './FotoEscola';
-const BlogSlider = dynamic(() => import('../Elements/Slider/BlogSliderSection'), {
+const NewsSlider = dynamic(() => import('./NewsSliderSection'), {
     ssr: false
 })
 
@@ -38,7 +38,7 @@ class HomeMain extends Component {
 
 				<Socio />
 
-				<BlogSlider />
+				<NewsSlider />
 
         	</main>
         );
