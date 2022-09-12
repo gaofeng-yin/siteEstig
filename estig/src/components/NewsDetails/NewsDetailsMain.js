@@ -7,7 +7,7 @@ import articleDetails from '../../data/news-posts/posts.json';
 import Breadcrumb from '../Common/Breadcrumb';
 import NewsSignature from './NewsSignature';
 
-class BlogDetailsMain extends Component {
+class NewsDetailsMain extends Component {
 
     static async getInitialProps({ query }) {
         const {slug} = query;
@@ -91,6 +91,6 @@ const mapStateToProps = (state) => {
     return { newsDetails }
 };
 
-export default connect(mapStateToProps)(BlogDetailsMain);
+export default connect(mapStateToProps)(NewsDetailsMain);
 
 
