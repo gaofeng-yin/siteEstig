@@ -16,7 +16,7 @@ const ArticleLayout = ({ postsDetails }) => {
                     <Link href={postsDetails.id}><a>{postsDetails.title}</a></Link>
                 </h3>
                 <div className="kblog-text-link">
-                    <Link href={postsDetails.id}><a>{postsDetails.button}</a></Link>
+                    <Link href={postsDetails.id}><a>Read more</a></Link>
                 </div>
             </div>
         </div>
