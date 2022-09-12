@@ -42,10 +42,10 @@ class Service extends Component {
                                 <div className="col-sm-6 custom-pad-20">
                                     <div className="kservice text-center mb-20">
                                         <div className="kservice-icon">
-                                            <i><FontAwesomeIcon icon={['fas', 'fa-building']} /></i>
+                                            <i><FontAwesomeIcon icon="fa-regular fa-image" /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/housing"><a>Habitação</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/photo"><a>Fotos</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>
