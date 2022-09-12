@@ -3,7 +3,7 @@ import Breadcrumb from '../Common/Breadcrumb';
 import Quality from '../Home/QualitySection';
 import SubscribeSection from './SubscribeSection';
 import CardDescriptionSection from './CardDescriptionSection';
-import BrandSection from './BrandSection';
+import SponsorAccordionSection from './SponsorAccordionSection';
 
 
 class ServiceMain extends Component {
@@ -18,7 +18,7 @@ class ServiceMain extends Component {
 
 				<SubscribeSection />
 
-                <BrandSection />
+                <SponsorAccordionSection />
 
                 <Quality />
         	</main>
