@@ -29,8 +29,8 @@ const Footer = () => {
                         <div className="widget mb-30">
                            <h4 className="widget-title mb-35">Links</h4>
                            <ul>
-                                 <li><Link href="/service"><a>Sócio</a></Link></li>
-                                 <li><Link href="/blog"><a>Notícias</a></Link></li>
+                                 <li><Link href="/socio"><a>Sócio</a></Link></li>
+                                 <li><Link href="/news"><a>Notícias</a></Link></li>
                                  <li><Link href="/about"><a>Sobre Nós</a></Link></li>
                                  <li><Link href="/contact"><a>Contacto</a></Link></li>
                            </ul>
@@ -40,8 +40,7 @@ const Footer = () => {
                         <div className="widget widget-contact mb-30">
                            <h4 className="widget-title mb-35">Contacto</h4>
                            <ul>
-                                 <li className="pb-10">86 Road Broklyn Street, 600 <br/>New York, USA</li>
-                                 <li><img src="assets/img/icon/footer-icon-1.svg" className="img-fluid" alt="icon-img"/><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
+                                 <li><img src="assets/img/icon/footer-icon-1.svg" className="img-fluid" alt="icon-img"/><a href="mailto:aeestig.alunos@gmail.com">aeestig.alunos@gmail.com</a></li>
                            </ul>
                         </div>
                      </div>
