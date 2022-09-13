@@ -91,7 +91,7 @@ class HomeSlider extends Component {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="kslider z-index">
-                                                <h5 className="kslider--subtitle mb-25" data-animation="fadeInUp" data-delay="0.3s">Associação de Estudantes Escola Superior de Tecnologia e Gestão</h5>
+                                                <h5 className="kslider--subtitle mb-25" data-delay="0.3s">Associação de Estudantes Escola Superior de Tecnologia e Gestão</h5>
                                                 <h2 className="kslider--title mb-40" data-animation="fadeInUp" data-delay="0.5s">A Escola com mais coração...<br/></h2>
                                                 <div className="kslider--btn" data-animation="fadeInUp" data-delay="0.7s">
                                                     <Link href="/service"><a className="theme-btn">Discover more</a></Link>
