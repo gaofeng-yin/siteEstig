@@ -40,7 +40,7 @@ class BrandFour extends Component {
                             >
                             <SwiperSlide>
                                 <div className="brand-wrapper swiper-slide wow fadeInUp" data-wow-delay=".3s" data-swiper-autoplay="10000">
-                                        <a href="#"><img src="assets/img/brand/brand-1.png" className="img-fluid" alt="img"/></a>
+                                        <a href="#"><img src="assets/img/brand/bo.png" className="img-fluid" alt="img"/></a>
                                 </div>
                             </SwiperSlide>
                             </Swiper>

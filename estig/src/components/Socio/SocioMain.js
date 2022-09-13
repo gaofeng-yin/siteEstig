@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
 import Quality from '../Home/QualitySection';
-import ServiceFour from './ServiceSectionFour';
-import WhyWeThree from './WhyWeThree';
-import BrandSection from './BrandSection';
+import SubscribeSection from './SubscribeSection';
+import CardDescriptionSection from './CardDescriptionSection';
+import SponsorAccordionSection from './SponsorAccordionSection';
 
 
 class ServiceMain extends Component {
@@ -14,11 +14,11 @@ class ServiceMain extends Component {
             <main>
 				<Breadcrumb pageTitle="Sócio" />
 
-                <WhyWeThree />
+                <CardDescriptionSection />
 
-				<ServiceFour />
+				<SubscribeSection />
 
-                <BrandSection />
+                <SponsorAccordionSection />
 
                 <Quality />
         	</main>
