@@ -13,7 +13,7 @@ class ServiceFour extends Component {
                 <div className="row">
                     <div className="col-xxl-5 col-xl-6 col-lg-6">
                         <div className="section-title-wrapper mb-15">
-                            <h5 className="section-subtitle mb-20">Adere ao sócio</h5>
+                            <h5 className="section-subtitle mb-20">Torna-te sócio...</h5>
                             <h2 className="section-title">Preenche o formulário</h2>
                         </div>
                     </div>

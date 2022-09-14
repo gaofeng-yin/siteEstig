@@ -12,9 +12,9 @@ class Service extends Component {
                     <div className="row justify-content-between">
                         <div className="col-xxl-5 col-lg-6">
                             <div className="kservice-text mb-50" data-aos="fade-right" data-aos-duration="1000">
-                                <h5 className="kservice-text-subtitle mb-15">All Categories List</h5>
-                                <h2 className="kservice-text-title mb-40">The Services <br/>We’re Offering</h2>
-                                <p className="mb-45">There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour.</p>
+                                <h5 className="kservice-text-subtitle mb-15">Explora o Website...</h5>
+                                <h2 className="kservice-text-title mb-40">Os nossos<br/>Serviços</h2>
+                                <p className="mb-45">Aqui podes ler notícias, consultar documentos, ver fotos de eventos e saber mais sobre o nosso cartão de socio e as suas vantagens.</p>
                                 <div className="kservice-author">
                                     <div className="kservice-author-img mr-30">
                                         <img src="assets/img/service/service-author.png" className="img-fluid" alt="author-img"/>

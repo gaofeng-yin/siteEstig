@@ -19,13 +19,13 @@ class WhyWeThree extends Component {
                         <div className="col-xl-6 col-lg-6 col-md-12">
                             <div className="provide-content">
                                 <div className="section-title-wrapper mb-25">
-                                    <h5 className="section-subtitle mb-20">All Categories List</h5>
-                                    <h2 className="section-title mb-35">We provide a best <br/>
+                                    <h5 className="section-subtitle mb-20">Sócio AEESTiG...</h5>
+                                    <h2 className="section-title mb-35">Vantagens de ser sócio <br/>
                                         services
                                     </h2>
-                                    <p>There are many variations of pass of lorem ipsum available but the majority have suffered alteration in some form.</p>
+                                    <p>Torna-te sócio e desfruta de descontos em merchandising, parceiros locais e eventos organizados pela AEESTiG.</p>
                                 </div>
-                                <p>Injected humour randomised words which don't look even slightly believable you need to be sure there isn't anything embarrassing.</p>
+                                <p>Dirige-te a sala da associação de estudantes que nós ajudamos-te em todo o processo</p>
                             </div>
                         </div>
                     </div>

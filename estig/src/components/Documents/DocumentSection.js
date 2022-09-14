@@ -13,10 +13,20 @@ export default () => (
             <div className="row aportfolio-active">
                 <div className="col-lg-4 col-md-6">
                     <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-5.jpg" className="img-fluid" alt="project_img"/>
+                        <img src="assets/img/project/codigo.jpg" className="img-fluid" alt="project_img"/>
                         <div className="kproject-text kproject-text-2">
                             <div className="kproject-text-content">
                                 <h5 className="kproject-text-title"><Link href="https://drive.google.com/file/d/1TVMwvOlhX85cgr6OjH297_XhH_x5iFJy/view"><a target="_blank">Código de Praxe</a></Link></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6">
+                    <div className="kproject kproject-2 mb-30">
+                        <img src="assets/img/project/capote.jpg" className="img-fluid" alt="project_img"/>
+                        <div className="kproject-text kproject-text-2">
+                            <div className="kproject-text-content">
+                                <h5 className="kproject-text-title"><Link href="https://drive.google.com/file/d/1TVMwvOlhX85cgr6OjH297_XhH_x5iFJy/view"><a target="_blank">Código de Traje Académico</a></Link></h5>
                             </div>
                         </div>
                     </div>
