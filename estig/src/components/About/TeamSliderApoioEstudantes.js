@@ -49,8 +49,8 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Jorge Rodrigues</a></Link></h4>
-                                <span className="uppercase">Presidente</span>
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Catarina Roque</a></Link></h4>
+                                <span className="uppercase">Coordenador</span>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -61,8 +61,8 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/team-img-2.jpg" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Mike Hardson</a></Link></h4>
-                                <span className="uppercase">developer</span>
+                                <h4 className="kteam-title"><Link href="/team-details"><a>José Tiago</a></Link></h4>
+                                <span className="uppercase">Membro</span>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -73,8 +73,8 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/team-img-3.jpg" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Christine eve</a></Link></h4>
-                                <span className="uppercase">Programmer</span>
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Angélico Ramos</a></Link></h4>
+                                <span className="uppercase">Membro</span>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -85,8 +85,8 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/team-img-4.jpg" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>John Smith</a></Link></h4>
-                                <span className="uppercase">artist</span>
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Catarina Moura</a></Link></h4>
+                                <span className="uppercase">Membro</span>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -97,8 +97,8 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/team-img-5.jpg" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>melinda albert</a></Link></h4>
-                                <span className="uppercase">writter</span>
+                                <h4 className="kteam-title"><Link href="/team-details"><a>Sara Nogueira</a></Link></h4>
+                                <span className="uppercase">Membro</span>
                             </div>
                         </div>
                     </SwiperSlide>

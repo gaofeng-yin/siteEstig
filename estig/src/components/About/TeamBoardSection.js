@@ -48,7 +48,7 @@ class TeamBoardSection extends Component {
                     <TeamSliderConcelhoFiscal />
                 </div>
                 <div className="section-title-wrapper text-center mb-50">
-                <h2 className="section-title mb-35">Mesa de Assembleia</h2>
+                <h2 className="section-title mb-35">Mesa da Assembleia</h2>
                 </div>
                 <div className="team-active2 swiper-container">
                     <TeamSliderMessaAsssembleia />
