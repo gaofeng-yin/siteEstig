@@ -17,7 +17,7 @@ class Service extends Component {
                                 <p className="mb-45">Aqui podes ler notícias, consultar documentos, ver fotos de eventos e saber mais sobre o nosso cartão de socio e as suas vantagens.</p>
                                 <div className="kservice-author">
                                     <div className="kservice-author-img mr-30">
-                                        <img src="assets/img/service/service-author.png" className="img-fluid" alt="author-img"/>
+                                        <img src="assets/img/service/pequeno.png" className="img-fluid" alt="author-img"/>
                                     </div>
                                     <div className="kservice-author-sign">
                                         <span>AE ESTiG</span>

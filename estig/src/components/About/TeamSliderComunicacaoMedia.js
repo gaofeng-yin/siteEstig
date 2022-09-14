@@ -46,7 +46,7 @@ class TeamSliderTwo extends Component {
                     <SwiperSlide>
                         <div className="kteam swiper-slide mb-30">
                             <div className="kteam-img">
-                                <img src="assets/img/team/team-img-1.jpg" className="img-fluid" alt="team-img"/>
+                                <img src="assets/img/team/major.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
                                 <h4 className="kteam-title"><Link href="/team-details"><a>Sérgio Major</a></Link></h4>
@@ -58,7 +58,7 @@ class TeamSliderTwo extends Component {
                     <SwiperSlide>
                         <div className="kteam swiper-slide mb-30">
                             <div className="kteam-img">
-                                <img src="assets/img/team/team-img-2.jpg" className="img-fluid" alt="team-img"/>
+                                <img src="assets/img/team/miguel.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
                                     <h4 className="kteam-title"><Link href="/team-details"><a>Hugo Miguel</a></Link></h4>
@@ -70,7 +70,7 @@ class TeamSliderTwo extends Component {
                     <SwiperSlide>
                         <div className="kteam swiper-slide mb-30">
                             <div className="kteam-img">
-                                <img src="assets/img/team/team-img-3.jpg" className="img-fluid" alt="team-img"/>
+                                <img src="assets/img/team/tatiana.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
                                 <h4 className="kteam-title"><Link href="/team-details"><a>Tatiana Silva</a></Link></h4>
@@ -82,7 +82,7 @@ class TeamSliderTwo extends Component {
                     <SwiperSlide>
                         <div className="kteam swiper-slide mb-30">
                             <div className="kteam-img">
-                                <img src="assets/img/team/team-img-4.jpg" className="img-fluid" alt="team-img"/>
+                                <img src="assets/img/team/alves.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
                                 <h4 className="kteam-title"><Link href="/team-details"><a>Rafael Alves</a></Link></h4>
@@ -94,7 +94,7 @@ class TeamSliderTwo extends Component {
                     <SwiperSlide>
                         <div className="kteam swiper-slide mb-30">
                             <div className="kteam-img">
-                                <img src="assets/img/team/team-img-5.jpg" className="img-fluid" alt="team-img"/>
+                                <img src="assets/img/team/sala.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
                                 <h4 className="kteam-title"><Link href="/team-details"><a>João Sala</a></Link></h4>

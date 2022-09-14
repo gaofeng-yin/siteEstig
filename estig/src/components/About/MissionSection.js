@@ -22,7 +22,7 @@ class Mission extends Component {
                     </div>
                     <div className="col-xl-6 col-lg-6">
                         <div className="kintro-img mb-30" data-aos="fade-right" data-aos-duration="1000">
-                            <img src="assets/img/about/about-img-6.jpg" className="img-fluid" alt="about-img"/>
+                            <img src="assets/img/about/logo.png" className="img-fluid" alt="about-img"/>
                         </div>
                     </div>
                 </div>
