@@ -73,10 +73,12 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
               </div>
                 <div className="contact-infos mb-30">
                     <div className="contact-list mb-30">
-                        <h4>Contact Info</h4>
+                        <h4>Informações</h4>
                         <ul>
-                            <li><img src="assets/img/icon/sidebar-icon-1.svg" className="img-fluid" alt="icon-img"/>86 broklyn street road, New York</li>
-                            <li><img src="assets/img/icon/footer-icon-1.svg" className="img-fluid" alt="icon-img"/><a href="mailto:info@sycho24.com">needhelp@company.com</a></li>
+                            <li><img src="assets/img/icon/sidebar-icon-1.svg" className="img-fluid" alt="icon-img"/>Escola Superior de Tecnologia e Gestão
+                                Campus de Santa Apolónia
+                                5300-253 BRAGANÇA</li>
+                            <li><img src="assets/img/icon/footer-icon-1.svg" className="img-fluid" alt="icon-img"/><a href="mailto:info@sycho24.com">aeestig.alunos@gmail.com</a></li>
                         </ul>
                         <div className="sidebar__menu--social">
                             <a href="https://www.facebook.com/aeestigipb" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>

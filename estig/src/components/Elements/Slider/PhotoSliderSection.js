@@ -86,7 +86,7 @@ class ProjectSlider extends Component {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/project-img-3.jpg" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/M1.png" className="img-fluid" alt="project_img"/>
                            {/* <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Web Devolopment</span>

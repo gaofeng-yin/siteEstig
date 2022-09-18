@@ -7,15 +7,13 @@ class Service extends Component {
     render() {
 
         return (
-            <section className="service-area pt-120 pb-130" style={{ backgroundImage:`url(${'assets/img/service/service-bg.jpg'})`}}>
+            <section className="service-area pt-120 pb-130" style={{ backgroundImage:`url(${'assets/img/service/ft1.png'})`}}>
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-xxl-5 col-lg-6">
                             <div className="kservice-text mb-50" data-aos="fade-right" data-aos-duration="1000">
                                 <h5 className="kservice-text-subtitle mb-15">Explora o Website...</h5>
-                                <h2 className="kservice-text-title mb-40">Os nossos<br/>Serviços</h2>
-                                <p className="mb-45">Aqui podes ler notícias, consultar documentos, ver fotos de eventos e saber mais sobre o nosso cartão de socio e as suas vantagens.</p>
-                                <div className="kservice-author">
+                                <h2 className="kservice-text-title mb-40">Os nossos<br/>Serviços</h2><div className="kservice-author">
                                     <div className="kservice-author-img mr-30">
                                         <img src="assets/img/service/pequeno.png" className="img-fluid" alt="author-img"/>
                                     </div>
@@ -67,7 +65,7 @@ class Service extends Component {
                                             <i><FontAwesomeIcon icon={['fas', 'fa-file-pdf']} /></i>
                                         </div>
                                         <div className="kservice-content">
-                                            <h5 className="kservice-content-title"><Link href="/service-details"><a>Documentos</a></Link></h5>
+                                            <h5 className="kservice-content-title"><Link href="/document"><a>Documentos</a></Link></h5>
                                         </div>
                                     </div>
                                 </div>

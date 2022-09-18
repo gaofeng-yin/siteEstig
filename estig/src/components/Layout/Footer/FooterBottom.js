@@ -18,8 +18,7 @@ const FooterBottom = () => {
                            <div className="privacy-text text-center text-md-end"> 
                                  <ul>
                                     <li>
-                                       <Link href="/contact"><a>Terms & Condition</a></Link>
-                                       <Link href="/contact"><a>Privacy Policy</a></Link>
+                                       <Link href="https://drive.google.com/file/d/1fKLzxufbaDbJU23-1XK0LW4gRVjaktrF/view?usp=sharing" ><a target="_blank">Terms & Condition</a></Link>
                                     </li>
                                  </ul>
                            </div>

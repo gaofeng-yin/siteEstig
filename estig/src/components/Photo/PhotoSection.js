@@ -13,22 +13,11 @@ export default () => (
             <div className="row aportfolio-active">
                 <div className="col-lg-4 col-md-6">
                     <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-5.jpg" className="img-fluid" alt="project_img"/>
+                        <img src="assets/img/project/PORTESTIG.png" className="img-fluid" alt="project_img"/>
                         <div className="kproject-text kproject-text-2">
                             <div className="kproject-text-content">
-                                <span>16/09/2022</span>
-                                <h5 className="kproject-text-title"><Link href="https://www.youtube.com/watch?v=aVRtuPnN_NE&list=RDMM&index=27"><a target="_blank">Início de Aulas</a></Link></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                    <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-6.jpg" className="img-fluid" alt="project_img"/>
-                        <div className="kproject-text kproject-text-2">
-                            <div className="kproject-text-content">
-                                <span>00/00/00</span>
-                                <h5 className="kproject-text-title"><Link href="https://www.youtube.com/watch?v=aVRtuPnN_NE&list=RDMM&index=27"><a target="_blank">Whatever</a></Link></h5>
+                                <span>18/09/2022</span>
+                                <h5 className="kproject-text-title"><Link href="https://drive.google.com/drive/folders/1bE8GrXLMuUqv3wdOFhwyut2_R49R11r8?usp=sharing"><a target="_blank">Fotos da ESTiG</a></Link></h5>
                             </div>
                         </div>
                     </div>

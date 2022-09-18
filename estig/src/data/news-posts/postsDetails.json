@@ -1,26 +1,20 @@
 [
     {
-      "id": "3",
-      "date": "April 02, 2022",
-      "title": "Morreu o Jesus Cristo, antigo aluno do IPB do curo EI",
-      "image": "assets/img/news/thumbnail/blog-img-10.jpg"
-    },
-    {
       "id": "2",
-      "date": "April 02, 2022",
-      "title": "Morreu o Gaofeng, antigo aluno do IPB do curo EI",
-      "image": "assets/img/news/thumbnail/blog-img-10.jpg"
+      "date": "Setembro 20, 2022",
+      "title": "Arraial de Boas-Vindas",
+      "image": "assets/img/news/thumbnail/estig2.png"
     },
     {
       "id": "1",
-      "date": "April 03, 2022",
-      "title": "Gaofeng resuscitou no dia 13 de Julho",
-      "image": "assets/img/news/thumbnail/blog-img-10.jpg"
+      "date": "Setembro 18, 2022",
+      "title": "Apresentações aos novos alunos",
+      "image": "assets/img/news/thumbnail/estig2.png"
     },
     {
       "id": "0",
-      "date": "April 03, 2022",
-      "title": "Fodeivos todos ",
-      "image": "assets/img/news/thumbnail/blog-img-10.jpg"
+      "date": "Setembro 18, 2022",
+      "title": "IPB volta a destacar-se no Ranking de Shangai",
+      "image": "assets/img/news/thumbnail/shangai.png"
     }
 ]

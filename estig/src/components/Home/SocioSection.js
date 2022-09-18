@@ -7,7 +7,7 @@ class Trust extends Component {
         //need to refactor redirection
         return (
             <section className="trust-area pt-105 pb-120">
-                <div className="trust-bg" style={{ backgroundImage:`url(${'assets/img/trust/trust-bg.jpg'})`}}></div>
+                <div className="trust-bg" style={{ backgroundImage:`url(${'assets/img/trust/banner.png'})`}}></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-12">

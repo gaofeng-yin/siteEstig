@@ -16,7 +16,7 @@ export default () => (
                         <img src="assets/img/project/codigo.jpg" className="img-fluid" alt="project_img"/>
                         <div className="kproject-text kproject-text-2">
                             <div className="kproject-text-content">
-                                <h5 className="kproject-text-title"><Link href="https://drive.google.com/file/d/1TVMwvOlhX85cgr6OjH297_XhH_x5iFJy/view"><a target="_blank">Código de Praxe</a></Link></h5>
+                                <h5 className="kproject-text-title"><Link href="https://drive.google.com/file/d/194qOrYorKOS8RPvec22eIKhEvGPVV-tV/view?usp=sharing"><a target="_blank">Código de Praxe</a></Link></h5>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ export default () => (
                         <img src="assets/img/project/capote.jpg" className="img-fluid" alt="project_img"/>
                         <div className="kproject-text kproject-text-2">
                             <div className="kproject-text-content">
-                                <h5 className="kproject-text-title"><Link href="https://drive.google.com/file/d/1TVMwvOlhX85cgr6OjH297_XhH_x5iFJy/view"><a target="_blank">Código de Traje Académico</a></Link></h5>
+                                <h5 className="kproject-text-title"><Link href="https://drive.google.com/file/d/1-XqOJ9DngH2r49dnKDLBdQq2EhSX8fe2/view?usp=sharing"><a target="_blank">Código de Traje Académico</a></Link></h5>
                             </div>
                         </div>
                     </div>

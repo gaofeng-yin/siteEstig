@@ -19,9 +19,9 @@ class BlogSlider extends Component {
                             <div className='col-xl-4'>
                                 <div className="blog-text pt-60" data-aos="zoom-in">
                                     <div className="section-title-wrapper pr-25 mb-50">
-                                        <h5 className="section-subtitle mb-20">Notícias</h5>
+                                        <h5 className="section-subtitle mb-20">Notícias...</h5>
                                         <h2 className="section-title mb-35">Não perca as últimas notícias</h2>
-                                        <p className="pr-50">Lorem ipsum onts persp unde omnis iste natus errluptatem acc usantium demque laudantium totam.</p>
+                                        <p className="pr-50"></p>
                                     </div>
                                     <div className="kblog-arrow">
                                         <div className="blog-button-prev slide-prev"><i><FontAwesomeIcon icon={['fas', 'long-arrow-alt-left']} /></i></div>
@@ -81,7 +81,7 @@ class BlogSlider extends Component {
                                                         <Link href={postsDetails.id}><a>{postsDetails.title}</a></Link>
                                                     </h3>
                                                     <div className="kblog-text-link">
-                                                        <Link href={postsDetails.id}><a>Read more</a></Link>
+                                                        <Link href={postsDetails.id}><a>Ler mais</a></Link>
                                                     </div>
                                                 </div>
                                             </div>

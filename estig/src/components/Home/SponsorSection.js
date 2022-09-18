@@ -100,7 +100,62 @@ class Sponsor extends Component {
 
                                 <SwiperSlide>
                                     <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
-                                        <a href="#"><img src="assets/img/brand/dux.png" className="img-fluid" alt="img"/></a>
+                                        <a href="#"><img src="assets/img/brand/ba.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/bo.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/porta.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/havana.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/la.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/lagoa.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/mc.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/moda.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/munivel.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/opium.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/merc.png" className="img-fluid" alt="img"/></a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="brand-wrapper swiper-slide wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.8s" data-swiper-autoplay="10000">
+                                        <a href="#"><img src="assets/img/brand/espaco.png" className="img-fluid" alt="img"/></a>
                                     </div>
                                 </SwiperSlide>
                         </Swiper>

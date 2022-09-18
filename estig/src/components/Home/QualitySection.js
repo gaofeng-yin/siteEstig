@@ -14,15 +14,15 @@ class Quality extends Component {
                                 <img src="assets/img/icon/service-icon-1a.png" className="img-fluid" alt="about-icon"/>
                             </div>
                             <div className="kquality-text fix">
-                                <h3 className="mb-20 kquality-text-title">We Deliver the Best Quality</h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some form, by injected humour words.</p>
+                                <h3 className="mb-20 kquality-text-title">Cartão de Sócio...</h3>
+                                <p> O WebSite serve exclusivamente para reservar e conhecer as vantagens do catão de sócio, para o adquir tem que se deslocar à Associação de Estudantes.</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="text-lg-end mb-30" data-aos="zoom-in-left">
                             <div className="kquality-img">
-                                <img src="assets/img/trust/cta-img.jpg" className="img-fluid" alt="cta-img"/>
+                                <img src="assets/img/trust/aeestig.png" className="img-fluid" alt="cta-img"/>
                             </div>
                         </div>
                     </div>

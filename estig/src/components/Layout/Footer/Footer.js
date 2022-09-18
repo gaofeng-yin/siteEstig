@@ -18,7 +18,7 @@ const Footer = () => {
                            <div className="footer-logo mb-25">
                                  <Link href="/"><a><img src="assets/img/logo/logo-white.png" className="img-fluid" alt="footer-logo"/></a></Link>
                            </div>
-                           <p className="mb-20 pr-35">There are many vari of pass of lorem ipsum availab but the majority have suffered in some form by injected humour or words.</p>
+                           <p className="mb-20 pr-35">Já com mais de 3 décadas de história, mas com o objetivo de sempre fazer mais pela ESTiG e pelos seus estudantes.</p>
                            <div className="footer-social">
                               <a href="https://www.facebook.com/aeestigipb" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']} /></i></a>
                               <a href="https://www.instagram.com/aeestig/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>

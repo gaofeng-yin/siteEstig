@@ -54,18 +54,18 @@ class Video extends Component {
                         <div className="row">
                             <div className="col-12">
                                 <div className="section-title-wrapper mb-45 text-center">
-                                    <h5 className="section-subtitle mb-20">one minute video</h5>
-                                    <h2 className="section-title mb-35">Watch video work</h2>
+                                    <h5 className="section-subtitle mb-20"></h5>
+                                    <h2 className="section-title mb-35"></h2>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="kvideo-wrapper" data-aos="zoom-in" data-aos-duration="1000">
-                                    <div className="kvideo" style={{ backgroundImage:`url(${'assets/img/bg/video-bg.jpg'})`}}>
+                                    <div className="kvideo" style={{ backgroundImage:`url(${'assets/img/bg/escola.png'})`}}>
                                         <div className="kvideo-sign text-center">
                                             <a href="#!" className="play-btn" onClick={this.onOpenModal}> <i><FontAwesomeIcon icon={['fas', 'play']} /></i> </a>
-                                            <h2>Veja o Video</h2>
+                                            <h2>O melhor Espírito...</h2>
                                         </div>
                                     </div>
                                 </div>

@@ -20,9 +20,9 @@ class WhyWeThree extends Component {
                             <div className="provide-content">
                                 <div className="section-title-wrapper mb-25">
                                     <h5 className="section-subtitle mb-20">Sócio AEESTiG...</h5>
-                                    <h2 className="section-title mb-35">Vantagens de ser sócio <br/>
-                                        services
-                                    </h2>
+                                    <h2 className="section-title mb-35">Vantagens de ser sócio</h2>
+                                    <h4>Disponível dia 4 de outubro</h4>
+                                    <br/>
                                     <p>Torna-te sócio e desfruta de descontos em merchandising, parceiros locais e eventos organizados pela AEESTiG.</p>
                                 </div>
                                 <p>Dirige-te a sala da associação de estudantes que nós ajudamos-te em todo o processo</p>

@@ -9,7 +9,7 @@ class NewsSignature extends Component {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-7">
                     <div className="tag_cloud">
                         <div className="kservice-author-sign">
-                            <span>Ae Estig</span>
+                            <span>AE ESTiG</span>
                         </div>
                     </div>
                 </div>
