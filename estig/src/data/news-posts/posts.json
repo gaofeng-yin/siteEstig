@@ -3,15 +3,15 @@
     	"2" : {
             "date": "Setembro 20, 2022",
             "title": "Arraial de Boas-Vindas",
-            "text": "",
-            "textTwo": "",
+            "text": "Local: Centro Académico",
+            "textTwo": "DJ V'GUESS & DJ Barranco",
             "image": "assets/img/news/cover/estig3.png"
         },
         "1" : {
             "date": "Setembro 18, 2022",
             "title": "Apresentações aos novos alunos",
-            "text": "",
-            "textTwo": "",
+            "text": "Várias atividades em conjunto com a Associação Académica do IPB para a integração aos novos alunos.",
+            "textTwo": "Segue-nos nas redes-socias para ficares a par de todas as atividades. @aeestig",
             "image": "assets/img/news/cover/estig3.png"
         },
         "0" : {
