@@ -49,7 +49,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/tomas.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Tomás Ferreira</a></Link></h4>
+                                <h4 className="kteam-title"><a>Tomás Ferreira</a></h4>
                                 <span className="uppercase">Coordenador</span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/daniel.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Daniel Duarte</a></Link></h4>
+                                <h4 className="kteam-title"><a>Daniel Duarte</a></h4>
                                 <span className="uppercase">Membro</span>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/xiko.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Francisco Fernandes</a></Link></h4>
+                                <h4 className="kteam-title"><a>Francisco Fernandes</a></h4>
                                 <span className="uppercase">Membro</span>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/pedro.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Pedro Nogueira</a></Link></h4>
+                                <h4 className="kteam-title"><a>Pedro Nogueira</a></h4>
                                 <span className="uppercase">Membro</span>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/sf.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Salomão Ferreiras</a></Link></h4>
+                                <h4 className="kteam-title"><a>Salomão Ferreiras</a></h4>
                                 <span className="uppercase">Membro</span>
                             </div>
                         </div>
