@@ -50,7 +50,7 @@ class ProjectSlider extends Component {
                 >
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/foto4edit.png" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/rex.png" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 
@@ -68,7 +68,7 @@ class ProjectSlider extends Component {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slide">
-                            <img src="assets/img/project/foto3edit.png" className="img-fluid" alt="project_img"/>
+                            <img src="assets/img/project/fotopresi.png" className="img-fluid" alt="project_img"/>
                         </div>
                     </SwiperSlide>
 

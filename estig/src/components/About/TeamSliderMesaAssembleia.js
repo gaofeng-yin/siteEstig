@@ -49,7 +49,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/ribeiro.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Rita Ribeiro</a></Link></h4>
+                                <h4 className="kteam-title"><a>Rita Ribeiro</a></h4>
                                 <span className="uppercase">Presidente</span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/moreira.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>João Moreira</a></Link></h4>
+                                <h4 className="kteam-title"><a>João Moreira</a></h4>
                                 <span className="uppercase">1ºSecretário</span>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ class TeamSliderTwo extends Component {
                                 <img src="assets/img/team/natas.png" className="img-fluid" alt="team-img"/>
                             </div>
                             <div className="kteam-text text-center">
-                                <h4 className="kteam-title"><Link href="/team-details"><a>Natanael Castro</a></Link></h4>
+                                <h4 className="kteam-title"><a>Natanael Castro</a></h4>
                                 <span className="uppercase">2ºSecretário</span>
                             </div>
                         </div>

@@ -22,6 +22,9 @@ class Contact extends Component {
                                 <div className="contact-info-icon">
                                     <a href="https://www.instagram.com/aeestig/" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']} /></i></a>
                                 </div>
+                                <div className="contact-info-icon">
+                                    <a href="https://twitter.com/aeestig" target="_blank"><i><FontAwesomeIcon icon={['fab', 'Twitter']} /></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>

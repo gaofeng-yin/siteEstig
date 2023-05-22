@@ -1,18 +1,18 @@
 [
     {
     	"2" : {
-            "date": "Setembro 20, 2022",
-            "title": "Arraial de Boas-Vindas",
-            "text": "Local: Centro Académico",
-            "textTwo": "DJ V'GUESS & DJ Barranco",
-            "image": "assets/img/news/cover/estig3.png"
+            "date": "Maio 9, 2022",
+            "title": "Torneio de Futsal ESTIG",
+            "text": "Voltamos a trazer de volta um dos grandes eventos da ESTIG, Torneio de FUTSAL ESTIG.",
+            "textTwo": "Dia 15,16,17 e 18 de Maio podes ir apoiar o teu curso no Pavilhão de Rebordãos. Muitas surpresas aguardam neste torneio, vem apoiar o teu curso. Dia 23 de março no afiteatro será a entrega de prémios!",
+            "image": "assets/img/news/cover/tfutsal2.png"
         },
         "1" : {
-            "date": "Setembro 18, 2022",
-            "title": "Apresentações aos novos alunos",
-            "text": "Várias atividades em conjunto com a Associação Académica do IPB para a integração aos novos alunos.",
-            "textTwo": "Segue-nos nas redes-socias para ficares a par de todas as atividades. @aeestig",
-            "image": "assets/img/news/cover/estig3.png"
+            "date": "Abril 21, 2022",
+            "title": "Queima das Fitas",
+            "text": "Boa Noite Finalistas",
+            "textTwo": "Está quase o dia mais importante da vossa vida académica. É fundamental iniciarmos as 15H de modo a cumprirmos o horário para questões adicionais não exitem em contactar-nos. Votos de uma semana repleta de sorrisos e boa disposição!",
+            "image": "assets/img/news/cover/fitas2.png"
         },
         "0" : {
             "date": "Setembro 18, 2022",

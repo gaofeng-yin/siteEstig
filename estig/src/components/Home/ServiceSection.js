@@ -7,7 +7,7 @@ class Service extends Component {
     render() {
 
         return (
-            <section className="service-area pt-120 pb-130" style={{ backgroundImage:`url(${'assets/img/service/ft1.png'})`}}>
+            <section className="service-area pt-120 pb-130" style={{ backgroundImage:`url(${'assets/img/service/3capa.png'})`}}>
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-xxl-5 col-lg-6">

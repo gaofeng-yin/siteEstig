@@ -1,15 +1,16 @@
 [
+
     {
       "id": "2",
-      "date": "Setembro 20, 2022",
-      "title": "Arraial de Boas-Vindas",
-      "image": "assets/img/news/thumbnail/estig2.png"
+      "date": "Maio 9, 2022",
+      "title": "Torneio de Futsal ESTIG",
+      "image": "assets/img/news/thumbnail/tfutsal.png"
     },
     {
       "id": "1",
-      "date": "Setembro 18, 2022",
-      "title": "Apresentações aos novos alunos",
-      "image": "assets/img/news/thumbnail/estig2.png"
+      "date": "Abril 21, 2022",
+      "title": "Queima das Fitas",
+      "image": "assets/img/news/thumbnail/fitas.png"
     },
     {
       "id": "0",

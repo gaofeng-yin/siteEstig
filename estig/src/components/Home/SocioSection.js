@@ -14,7 +14,7 @@ class Trust extends Component {
                                 <div className="ktrust text-center z-index">
                                     <h2 className="ktrust-title mb-45 wow fadeInUp" data-wow-delay=".2s">Torna-te sócio</h2>
                                     <div className="ktrust-btn">
-                                        <Link href="/about"><a className="theme-btn">Quero ser sócio</a></Link>
+                                        <Link href="/socio"><a className="theme-btn">Quero ser sócio</a></Link>
                                     </div>
                             </div>
                         </div>

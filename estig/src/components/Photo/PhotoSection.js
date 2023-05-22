@@ -22,6 +22,17 @@ export default () => (
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-4 col-md-6">
+                    <div className="kproject kproject-2 mb-30">
+                        <img src="assets/img/project/batismo.png" className="img-fluid" alt="project_img"/>
+                        <div className="kproject-text kproject-text-2">
+                            <div className="kproject-text-content">
+                                <span>04/12/2022</span>
+                                <h5 className="kproject-text-title"><Link href="https://drive.google.com/drive/folders/1fssmGYbufw6nGWEM_mNBkqIfjL8DtNRg"><a target="_blank">Batismo Caloiros</a></Link></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             </TabPanel>
         </div>
